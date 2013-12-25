@@ -632,7 +632,6 @@ JSGantt.GanttChart = function(pGanttVar, pDiv, pFormat) {
         vLeftTable += '  <TD style="BORDER-TOP: #efefef 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #efefef 1px solid; WIDTH: 60px; HEIGHT: 20px" align=center nowrap>End Date</TD>';
 
       vLeftTable += '</TR>';
-
       for (i = 0; i < vTaskList.length; i++) {
         if (vTaskList[i].getGroup()) {
           vBGColor = "f3f3f3";
@@ -691,9 +690,14 @@ JSGantt.GanttChart = function(pGanttVar, pDiv, pFormat) {
                 + ');'
                 + vGanttVar
                 + '.DrawDependencies();">+</span><span style="color:#000000">&nbsp</SPAN>';
-          vLeftTable += '<span onclick="editGroupItem(' + vID
-              + ');" style="cursor:pointer" class="taskDisplay" data-toggle="tooltip" title="Click to edit..." data-placement="left"> ' + vTaskList[i].getName()
-              + '</span></NOBR></TD>';
+          if (i == 0) 
+              vLeftTable += '<span '
+              + ' class="taskDisplay" data-toggle="tooltip" data-placement="left"> ' + vTaskList[i].getName()
+              + '</span></NOBR></TD>';          
+          else
+            vLeftTable += '<span onclick="editGroupItem(' + vID
+                + ');" style="cursor:pointer" class="taskDisplay" data-toggle="tooltip" title="Click to edit..." data-placement="left"> ' + vTaskList[i].getName()
+                + '</span></NOBR></TD>';
         } else {
 
           vLeftTable += '<span style="color: #000000; font-weight:bold; FONT-SIZE: 12px;">&nbsp&nbsp&nbsp</span>';
@@ -1170,7 +1174,7 @@ JSGantt.GanttChart = function(pGanttVar, pDiv, pFormat) {
 
           vTaskLeft = (Date.parse(vTaskList[i].getStart()) - Date
               .parse(vMinDate)) / (24 * 60 * 60 * 1000);
-          vTaskRight = 1
+          vTaskRight = 1;
 
           vRightTable += '<div id=bardiv_'
               + vID
@@ -1187,9 +1191,9 @@ JSGantt.GanttChart = function(pGanttVar, pDiv, pFormat) {
               + vID + ');">';
 
           if (vTaskList[i].getCompVal() < 100)
-            vRightTable += '&loz;</div>';
+            vRightTable += '<span class="glyphicon glyphicon-map-marker"></span></div>';//'&loz;</div>';
           else
-            vRightTable += '&diams;</div>';
+            vRightTable += '<span class="glyphicon glyphicon-map-marker"></span></div>';//'&diams;</div>';
 
           if (vGanttChart.getCaptionType()) {
             vCaptionStr = '';
