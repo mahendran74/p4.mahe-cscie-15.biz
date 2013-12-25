@@ -12,18 +12,18 @@
 <title>Quick CM : PM Home</title>
 
 <!-- Bootstrap core CSS -->
-<link href="../../css/bootstrap.css" rel="stylesheet">
+<link href="../../css/bootstrap.css" rel="stylesheet"/>
 <link href="../../css/select2.css" rel="stylesheet" />
 <link href="../../css/select2-bootstrap.css" rel="stylesheet" />
-<link href="../../css/datepicker.css" rel="stylesheet">
-<link href="../../css/slider.css" rel="stylesheet">
-<link href="../../css/jquery-simplecolorpicker.css" rel="stylesheet">
-<link href="../../css/jquery.simplecolorpicker-glyphicons.css" rel="stylesheet">
+<link href="../../css/datepicker.css" rel="stylesheet"/>
+<link href="../../css/slider.css" rel="stylesheet"/>
+<link href="../../css/jquery-simplecolorpicker.css" rel="stylesheet"/>
+<link href="../../css/jquery.simplecolorpicker-glyphicons.css" rel="stylesheet"/>
 <!-- Custom styles for this template -->
-<link href="../../css/qpm.css" rel="stylesheet">
+<link href="../../css/qpm.css" rel="stylesheet"/>
 <!-- Custom themes for this template -->
-<link href="../../css/qpm-pm-theme.css" rel="stylesheet">
-<link href="../../css/jsgantt.css" rel="stylesheet">
+<link href="../../css/qpm-pm-theme.css" rel="stylesheet"/>
+<link href="../../css/jsgantt.css" rel="stylesheet"/>
 <!-- Just for debugging purposes. Don't actually copy this line! -->
 <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -115,7 +115,7 @@
   <div class="modal fade" id="addNewUserWindow" tabindex="-1" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog">
       <div class="modal-content">
-        <form method='POST' action='' id="addNewUserForm">
+        <form method='POST' id="addNewUserForm">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h4 class="modal-title" id="addNewUserModalLabel">Add New User</h4>
@@ -190,17 +190,17 @@
             </div>
             <div class="form-group">
               <label for="task_desc">Task Description</label>
-              <input type="text" class="form-control" id="task_task_desc" name="task_desc" placeholder="Task Description" value="" 
+              <input type="text" class="form-control" id="task_task_desc" name="task_desc" placeholder="Task Description" 
                 data-msg-required="Please enter the task description." 
                 data-msg-maxlength="The task description cannot be more than 255 characters." 
                 data-rule-required="true" 
-                data-rule-maxlength="255" />
+                data-rule-maxlength=255 />
             </div>
             <div class="row">
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                 <div class="form-group">
                   <label for="start_date">Start Date</label>
-                  <input type="text" class="form-control" id="task_start_date" name="start_date" value="" 
+                  <input type="text" class="form-control" id="task_start_date" name="start_date" 
                     data-msg-date="Please enter a valid date as start date." 
                     data-msg-required="Please enter a valid date as start date." 
                     data-rule-date="true" 
@@ -210,7 +210,7 @@
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                 <div class="form-group">
                   <label for="end_date">End Date</label>
-                  <input type="text" class="form-control" id="task_end_date" name="end_date" value="" 
+                  <input type="text" class="form-control" id="task_end_date" name="end_date"  
                     data-msg-date="Please enter a valid date as end date." 
                     data-msg-required="Please enter a valid date as end date." 
                     data-rule-date="true" 
@@ -251,37 +251,41 @@
             </div>
             <div class="form-group">
               <label for="assigned_to_id">Task Assigned To</label>
-              <input type="hidden" class="form-control" id="task_assigned_to_id" name="assigned_to_id" placeholder="Select a team member" value="" 
+              <input type="hidden" class="form-control" id="task_assigned_to_id" name="assigned_to_id" placeholder="Select a team member" 
                 data-msg-required="Please select a team mamber." 
                 data-rule-required="true"/>
             </div>
             <div class="form-group">
               <label for="groups_group_id">Task Group</label>
-              <input type="hidden" class="form-control" id="task_groups_group_id" name="groups_group_id" placeholder="Select a task group" value=""
+              <input type="hidden" class="form-control" id="task_groups_group_id" name="groups_group_id" placeholder="Select a task group" 
                 data-msg-required="Please select a team group." 
                 data-rule-required="true"/>
             </div>
             <div class="form-group">
               <label for="depends_on">Depended On</label>
-              <input type="hidden" class="form-control" id="task_depends_on" name="depends_on" placeholder="Select a dependent task" value="" />
+              <input type="hidden" class="form-control" id="task_depends_on" name="depends_on" placeholder="Select a dependent task" />
             </div>
             <div class="form-group">
               <label for="per_complete">Percentage Complete</label>
               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <input type="text" value="0" id="task_per_complete" name="per_complete" data-slider-min="0" data-slider-max="100" data-slider-value="0" data-slider-step="1"/>
+              <input type="text" value="0" id="task_per_complete" name="per_complete" 
+              data-slider-min="0" 
+              data-slider-max="100" 
+              data-slider-value="0" 
+              data-slider-step="1"/>
               </div>
             </div>
           </div>
           <div class="modal-footer">
             <div id="addTaskAction">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary" id="taskSaveButton">Save task</button>
+              <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary" id="taskSaveButton">Save task</button>
             </div>
             <div id="editTaskAction">
               <input type="hidden" id="task_id" name="task_id" />
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
               <button type="button" class="btn btn-danger" id="taskDelButton">Delete task</button>
-              <button type="button" class="btn btn-primary" id="taskEditButton">Save task</button>
+              <button type="submit" class="btn btn-primary" id="taskEditButton">Save task</button>
             </div>
           </div>
         </form>
@@ -341,8 +345,17 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-success btn-primary" id="saveButton">Save</button>
+            <div id="addGroupAction">
+              <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary" id="groupSaveButton">Save group</button>
+            </div>
+            <div id="editGroupAction">
+              <input type="hidden" name="projects_project_id" id="projects_project_id" value="<?=$project['project_id']?>" />
+              <input type="hidden" id="group_id" name="group_id" />
+              <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger" id="groupDelButton">Delete group</button>
+              <button type="submit" class="btn btn-primary" id="groupEditButton">Save group</button>
+            </div>
           </div>
         </form>
       </div>
@@ -386,19 +399,27 @@
               </div>
             </div>
             <div class="form-group">
+              <label for="assigned_to_id">Milestone Assigned To</label>
+              <input type="hidden" class="form-control" id="milestone_assigned_to_id" name="assigned_to_id" placeholder="Select a team member" value="" 
+                data-msg-required="Please select a team mamber." 
+                data-rule-required="true"/>
+            </div>
+            <div class="form-group">
               <label for="parent_group_id">Parent Group</label>
               <input type="hidden" class="form-control" id="milestone_groups_group_id" name="groups_group_id" placeholder="Select a group" value=""/>
             </div>
-            <div class="form-group">
-              <label for="depends_on">Percentage Complete</label>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <input type="text" value="0" id="milestone_per_complete" name="per_complete" data-slider-min="0" data-slider-max="100" data-slider-value="0" data-slider-step="1"/>
-              </div>
-            </div>
           </div>
           <div class="modal-footer">
-            <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-success btn-primary" id="saveButton">Save</button>
+            <div id="addMilestoneAction">
+              <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary" id="milestoneSaveButton">Save milestone</button>
+            </div>
+            <div id="editMilestoneAction">
+              <input type="hidden" id="milestone_id" name="milestone_id" />
+              <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger" id="milestoneDelButton">Delete milestone</button>
+              <button type="submit" class="btn btn-primary" id="milestoneEditButton">Save milestone</button>
+            </div>
           </div>
         </form>
       </div>
