@@ -25,6 +25,7 @@ class pm_controller extends base_controller {
    * Show the PM home page
    */
   public function home() {
+
     if ($this->user && array_key_exists(2, $this->roles)) {
       $this->template->content = View::instance ( 'v_pm_home' ); // Set view
       $this->template->title = "QPM : PM Home"; // Set title
@@ -99,6 +100,145 @@ class pm_controller extends base_controller {
   
   public function get_milestone($milestone_id) {
     echo json_encode (get_milestone_details($milestone_id));
+  }
+  
+  public function p_add_task() {
+    // Check to see if the user id logged in.
+    if (! $this->user) {
+      // If not redirect it back to the home page for login.
+      Router::redirect ( "/" );
+    }
+    // Sanitize data for SQL injection attacks
+    $_POST = DB::instance ( DB_NAME )->sanitize ( $_POST );
+    $_POST ['created'] = Time::now (); // Set created datetime
+    $_POST ['modified'] = Time::now (); // Set modified datetime
+    $_POST ['start_date'] = date('Y-m-d', strtotime ($_POST['start_date']));
+    $_POST ['end_date'] = date('Y-m-d', strtotime ($_POST['end_date']));
+    $_POST ['status'] = get_status($_POST ['status']);
+    if (check_for_empty_string($_POST['depends_on']))
+      unset ( $_POST ['depends_on'] );
+    // Insert this user into the database
+    DB::instance ( DB_NAME )->insert ( "tasks", $_POST );
+    echo "Task added successfully.";
+  }
+  
+  public function p_update_task() {
+    // Check to see if the user id logged in.
+    if (! $this->user) {
+      // If not redirect it back to the home page for login.
+      Router::redirect ( "/" );
+    }
+    // Sanitize data for SQL injection attacks
+    $_POST = DB::instance ( DB_NAME )->sanitize ( $_POST );
+    $_POST ['modified'] = Time::now (); // Set modified datetime
+    $_POST ['start_date'] = date('Y-m-d', strtotime ($_POST['start_date']));
+    $_POST ['end_date'] = date('Y-m-d', strtotime ($_POST['end_date']));
+    $_POST ['status'] = get_status($_POST ['status']);
+    if (check_for_empty_string($_POST['depends_on']))
+      unset ( $_POST ['depends_on'] );
+    DB::instance (DB_NAME)->update( "tasks", $_POST, "WHERE task_id = " . $_POST ['task_id'] );
+    echo "Task updated successfully.";
+  }
+  
+  public function delete_task($task_id) {
+    // Check to see if the user id logged in.
+    if (! $this->user) {
+      // If not redirect it back to the home page for login.
+      Router::redirect ( "/" );
+    }
+    DB::instance (DB_NAME)->delete( "tasks", "WHERE task_id = " . $task_id );
+    echo "Task deleted successfully.";
+  }
+  
+  public function p_add_group() {
+    $this->log->logInfo($_POST);
+    // Check to see if the user id logged in.
+    if (! $this->user) {
+      // If not redirect it back to the home page for login.
+      Router::redirect ( "/" );
+    }
+    // Sanitize data for SQL injection attacks
+    $_POST = DB::instance ( DB_NAME )->sanitize ( $_POST );
+    $_POST ['created'] = Time::now (); // Set created datetime
+    $_POST ['modified'] = Time::now (); // Set modified datetime
+    $_POST ['start_date'] = date('Y-m-d', strtotime ($_POST['start_date']));
+    $_POST ['end_date'] = date('Y-m-d', strtotime ($_POST['end_date']));
+    if (check_for_empty_string($_POST['parent_group_id']))
+      unset ( $_POST ['parent_group_id'] );
+    // Insert this user into the database
+    DB::instance ( DB_NAME )->insert ( "groups", $_POST );
+    echo "Group added successfully.";
+  }
+  
+  public function p_update_group() {
+    // Check to see if the user id logged in.
+    if (! $this->user) {
+      // If not redirect it back to the home page for login.
+      Router::redirect ( "/" );
+    }
+    // Sanitize data for SQL injection attacks
+    $_POST = DB::instance ( DB_NAME )->sanitize ( $_POST );
+    $_POST ['modified'] = Time::now (); // Set modified datetime
+    $_POST ['start_date'] = date('Y-m-d', strtotime ($_POST['start_date']));
+    $_POST ['end_date'] = date('Y-m-d', strtotime ($_POST['end_date']));
+    if (check_for_empty_string($_POST['parent_group_id']))
+      unset ( $_POST ['parent_group_id'] );
+    DB::instance (DB_NAME)->update( "groups", $_POST, "WHERE group_id = " . $_POST ['group_id'] );
+    echo "Group updated successfully.";
+  }
+  
+  public function delete_group($group_id) {
+    // Check to see if the user id logged in.
+    if (! $this->user) {
+      // If not redirect it back to the home page for login.
+      Router::redirect ( "/" );
+    }
+    DB::instance (DB_NAME)->delete( "groups", "WHERE group_id = " . $group_id );
+    echo "Task deleted successfully.";
+  }
+  
+  public function p_add_milestone() {
+    // Check to see if the user id logged in.
+    if (! $this->user) {
+      // If not redirect it back to the home page for login.
+      Router::redirect ( "/" );
+    }
+    // Sanitize data for SQL injection attacks
+    $_POST = DB::instance ( DB_NAME )->sanitize ( $_POST );
+    $_POST ['created'] = Time::now (); // Set created datetime
+    $_POST ['modified'] = Time::now (); // Set modified datetime
+    $_POST ['milestone_date'] = date('Y-m-d', strtotime ($_POST['milestone_date']));
+    // Insert this user into the database
+    DB::instance ( DB_NAME )->insert ( "milestones", $_POST );
+    echo "Milestone added successfully.";
+  }
+  
+  public function p_update_milestone() {
+    // Check to see if the user id logged in.
+    if (! $this->user) {
+      // If not redirect it back to the home page for login.
+      Router::redirect ( "/" );
+    }
+    // Sanitize data for SQL injection attacks
+    $_POST = DB::instance ( DB_NAME )->sanitize ( $_POST );
+    // Sanitize data for SQL injection attacks
+    $_POST = DB::instance ( DB_NAME )->sanitize ( $_POST );
+    $_POST ['modified'] = Time::now (); // Set modified datetime
+    $_POST ['milestone_date'] = date('Y-m-d', strtotime ($_POST['milestone_date']));
+    DB::instance (DB_NAME)->update( "milestones", $_POST, "WHERE milestone_id = " . $_POST ['milestone_id'] );
+    echo "Milestone updated successfully.";
+  }
+  
+  public function delete_milestone($milestone_id) {
+    // Check to see if the user id logged in.
+    if (! $this->user) {
+      // If not redirect it back to the home page for login.
+      Router::redirect ( "/" );
+    }
+    // Sanitize data for SQL injection attacks
+    $_POST = DB::instance ( DB_NAME )->sanitize ( $_POST );
+    DB::instance (DB_NAME)->delete( "milestones", "WHERE milestone_id = " . $milestone_id );
+    echo "Milestone deleted successfully.";
   }
   /**
    * Process the update project request
