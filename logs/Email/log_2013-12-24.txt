@@ -1,0 +1,171 @@
+[LOG] 2013-12-24 0:40:58 - INFO --> --------------------------
+[LOG] 2013-12-24 0:40:58 - INFO --> Controller/Method: users/deactivate
+[LOG] 2013-12-24 0:40:58 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 0:40:58 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-24 0:40:58 - INFO --> CC: 
+[LOG] 2013-12-24 0:40:58 - INFO --> BCC: 
+[LOG] 2013-12-24 0:40:58 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-24 0:40:58 - INFO --> Body: Your account has been deactivated. Please contact the admin for more details.
+[LOG] 2013-12-24 0:41:06 - INFO --> --------------------------
+[LOG] 2013-12-24 0:41:06 - INFO --> Controller/Method: users/activate
+[LOG] 2013-12-24 0:41:06 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 0:41:06 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-24 0:41:06 - INFO --> CC: 
+[LOG] 2013-12-24 0:41:06 - INFO --> BCC: 
+[LOG] 2013-12-24 0:41:06 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-24 0:41:06 - INFO --> Body: Your account has been activated.
+[LOG] 2013-12-24 0:41:42 - INFO --> --------------------------
+[LOG] 2013-12-24 0:41:42 - INFO --> Controller/Method: users/deactivate
+[LOG] 2013-12-24 0:41:42 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 0:41:42 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-24 0:41:42 - INFO --> CC: 
+[LOG] 2013-12-24 0:41:42 - INFO --> BCC: 
+[LOG] 2013-12-24 0:41:42 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-24 0:41:42 - INFO --> Body: Your account has been deactivated. Please contact the admin for more details.
+[LOG] 2013-12-24 0:41:47 - INFO --> --------------------------
+[LOG] 2013-12-24 0:41:47 - INFO --> Controller/Method: users/activate
+[LOG] 2013-12-24 0:41:47 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 0:41:47 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-24 0:41:47 - INFO --> CC: 
+[LOG] 2013-12-24 0:41:47 - INFO --> BCC: 
+[LOG] 2013-12-24 0:41:47 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-24 0:41:47 - INFO --> Body: Your account has been activated.
+[LOG] 2013-12-24 0:46:14 - INFO --> --------------------------
+[LOG] 2013-12-24 0:46:14 - INFO --> Controller/Method: users/set_temp_token
+[LOG] 2013-12-24 0:46:14 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 0:46:14 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-24 0:46:14 - INFO --> CC: 
+[LOG] 2013-12-24 0:46:14 - INFO --> BCC: 
+[LOG] 2013-12-24 0:46:14 - INFO --> Subject: Password reset
+[LOG] 2013-12-24 0:46:14 - INFO --> Body: Your password has been reset. 
+        Please click the following link to create a new password. 
+http://localhost/users/reset_password/38c35f246cffb2873aaa69b6b4b7222cb1007b9b
+[LOG] 2013-12-24 0:48:19 - INFO --> --------------------------
+[LOG] 2013-12-24 0:48:19 - INFO --> Controller/Method: users/set_temp_token
+[LOG] 2013-12-24 0:48:19 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 0:48:19 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-24 0:48:19 - INFO --> CC: 
+[LOG] 2013-12-24 0:48:19 - INFO --> BCC: 
+[LOG] 2013-12-24 0:48:19 - INFO --> Subject: Password reset
+[LOG] 2013-12-24 0:48:19 - INFO --> Body: Your password has been reset. 
+        Please click the following link to create a new password. 
+http://localhost/users/reset_password/06b00dad0a6ed6a53861f81218856c9367e2682f
+[LOG] 2013-12-24 0:50:33 - INFO --> --------------------------
+[LOG] 2013-12-24 0:50:33 - INFO --> Controller/Method: users/set_temp_token
+[LOG] 2013-12-24 0:50:33 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 0:50:33 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-24 0:50:33 - INFO --> CC: 
+[LOG] 2013-12-24 0:50:33 - INFO --> BCC: 
+[LOG] 2013-12-24 0:50:33 - INFO --> Subject: Password reset
+[LOG] 2013-12-24 0:50:33 - INFO --> Body: Your password has been reset. 
+        Please click the following link to create a new password. 
+http://localhost/users/reset_password/44820024773ea85c02117a98aefd5d4b244c7555
+[LOG] 2013-12-24 0:55:52 - INFO --> --------------------------
+[LOG] 2013-12-24 0:55:52 - INFO --> Controller/Method: users/set_temp_token
+[LOG] 2013-12-24 0:55:52 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 0:55:52 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-24 0:55:52 - INFO --> CC: 
+[LOG] 2013-12-24 0:55:52 - INFO --> BCC: 
+[LOG] 2013-12-24 0:55:52 - INFO --> Subject: Password reset
+[LOG] 2013-12-24 0:55:52 - INFO --> Body: Your password has been reset. 
+        Please click the following link to create a new password. 
+http://localhost/users/reset_password/585edc4fb5ab1364d5e8804144a3612e7602d263
+[LOG] 2013-12-24 0:58:39 - INFO --> --------------------------
+[LOG] 2013-12-24 0:58:39 - INFO --> Controller/Method: users/set_temp_token
+[LOG] 2013-12-24 0:58:39 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 0:58:39 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-24 0:58:39 - INFO --> CC: 
+[LOG] 2013-12-24 0:58:39 - INFO --> BCC: 
+[LOG] 2013-12-24 0:58:39 - INFO --> Subject: Password reset
+[LOG] 2013-12-24 0:58:39 - INFO --> Body: Your password has been reset. 
+        Please click the following link to create a new password. 
+http://localhost/users/reset_password/cb8190f9c98b921d31d9c2246ad6b355ec13e345
+[LOG] 2013-12-24 5:12:05 - INFO --> --------------------------
+[LOG] 2013-12-24 5:12:05 - INFO --> Controller/Method: users/deactivate
+[LOG] 2013-12-24 5:12:05 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 5:12:05 - INFO --> To: Dan Brown (danbrown@sharklasers.com), 
+[LOG] 2013-12-24 5:12:05 - INFO --> CC: 
+[LOG] 2013-12-24 5:12:05 - INFO --> BCC: 
+[LOG] 2013-12-24 5:12:05 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-24 5:12:05 - INFO --> Body: Your account has been deactivated. Please contact the admin for more details.
+[LOG] 2013-12-24 5:12:11 - INFO --> --------------------------
+[LOG] 2013-12-24 5:12:11 - INFO --> Controller/Method: users/activate
+[LOG] 2013-12-24 5:12:11 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 5:12:11 - INFO --> To: Dan Brown (danbrown@sharklasers.com), 
+[LOG] 2013-12-24 5:12:11 - INFO --> CC: 
+[LOG] 2013-12-24 5:12:11 - INFO --> BCC: 
+[LOG] 2013-12-24 5:12:11 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-24 5:12:11 - INFO --> Body: Your account has been activated.
+[LOG] 2013-12-24 10:21:16 - INFO --> --------------------------
+[LOG] 2013-12-24 10:21:16 - INFO --> Controller/Method: users/p_adduser
+[LOG] 2013-12-24 10:21:16 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 10:21:16 - INFO --> To:   (), 
+[LOG] 2013-12-24 10:21:16 - INFO --> CC: 
+[LOG] 2013-12-24 10:21:16 - INFO --> BCC: 
+[LOG] 2013-12-24 10:21:16 - INFO --> Subject: Account created
+[LOG] 2013-12-24 10:21:16 - INFO --> Body: Your account has been created.
+        Please click the following link to create a new password. 
+http://localhost/users/reset_password/ff1d336814ea96a219256db8f6d9e320d1f2c2c8
+[LOG] 2013-12-24 10:21:16 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-24 10:25:40 - INFO --> --------------------------
+[LOG] 2013-12-24 10:25:40 - INFO --> Controller/Method: users/p_adduser
+[LOG] 2013-12-24 10:25:40 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 10:25:40 - INFO --> To:   (), 
+[LOG] 2013-12-24 10:25:40 - INFO --> CC: 
+[LOG] 2013-12-24 10:25:40 - INFO --> BCC: 
+[LOG] 2013-12-24 10:25:40 - INFO --> Subject: Account created
+[LOG] 2013-12-24 10:25:40 - INFO --> Body: Your account has been created.
+        Please click the following link to create a new password. 
+http://localhost/users/reset_password/50f5351d85e1f28cb97036cf3f68ffcf43d21846
+[LOG] 2013-12-24 10:25:40 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-24 10:35:00 - INFO --> --------------------------
+[LOG] 2013-12-24 10:35:00 - INFO --> Controller/Method: users/p_adduser
+[LOG] 2013-12-24 10:35:00 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 10:35:00 - INFO --> To:   (), 
+[LOG] 2013-12-24 10:35:00 - INFO --> CC: 
+[LOG] 2013-12-24 10:35:00 - INFO --> BCC: 
+[LOG] 2013-12-24 10:35:00 - INFO --> Subject: Account created
+[LOG] 2013-12-24 10:35:00 - INFO --> Body: Your account has been created.
+        Please click the following link to create a new password. 
+http://localhost/users/reset_password/2f092d69c9591da3aa7b0d1a328a88d34ce4b651
+[LOG] 2013-12-24 10:35:00 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-24 10:40:59 - INFO --> --------------------------
+[LOG] 2013-12-24 10:40:59 - INFO --> Controller/Method: users/p_adduser
+[LOG] 2013-12-24 10:40:59 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 10:40:59 - INFO --> To: Jerry Seinfeld (jerryseinfeld@sharklasers.com), 
+[LOG] 2013-12-24 10:40:59 - INFO --> CC: 
+[LOG] 2013-12-24 10:40:59 - INFO --> BCC: 
+[LOG] 2013-12-24 10:40:59 - INFO --> Subject: Account created
+[LOG] 2013-12-24 10:40:59 - INFO --> Body: Your account has been created.
+        Please click the following link to create a new password. 
+http://localhost/users/reset_password/18a1d2e429607375104782aa98a6806a1418b393
+[LOG] 2013-12-24 11:14:10 - INFO --> --------------------------
+[LOG] 2013-12-24 11:14:10 - INFO --> Controller/Method: users/p_adduser
+[LOG] 2013-12-24 11:14:10 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 11:14:10 - INFO --> To: Elaine Benez (elaine.benez@sharklasers.com), 
+[LOG] 2013-12-24 11:14:10 - INFO --> CC: 
+[LOG] 2013-12-24 11:14:10 - INFO --> BCC: 
+[LOG] 2013-12-24 11:14:10 - INFO --> Subject: Account created
+[LOG] 2013-12-24 11:14:10 - INFO --> Body: Your account has been created.
+        Please click the following link to create a new password. 
+http://localhost/users/reset_password/f0664b41a129036b6b66785af03f089a6840e0c8
+[LOG] 2013-12-24 11:37:52 - INFO --> --------------------------
+[LOG] 2013-12-24 11:37:52 - INFO --> Controller/Method: users/p_adduser
+[LOG] 2013-12-24 11:37:52 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 11:37:52 - INFO --> To: Cosmo Cramer (cosmo.cramer@sharklasers.com), 
+[LOG] 2013-12-24 11:37:52 - INFO --> CC: 
+[LOG] 2013-12-24 11:37:52 - INFO --> BCC: 
+[LOG] 2013-12-24 11:37:52 - INFO --> Subject: Account created
+[LOG] 2013-12-24 11:37:52 - INFO --> Body: Your account has been created.
+        Please click the following link to create a new password. 
+http://localhost/users/reset_password/2d0f1258db31cee9c6132456566679c3f0ece8ae
+[LOG] 2013-12-24 11:41:37 - INFO --> --------------------------
+[LOG] 2013-12-24 11:41:37 - INFO --> Controller/Method: users/p_adduser
+[LOG] 2013-12-24 11:41:37 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-24 11:41:37 - INFO --> To: George Costanza (george.costanza@sharklasers.com), 
+[LOG] 2013-12-24 11:41:37 - INFO --> CC: 
+[LOG] 2013-12-24 11:41:37 - INFO --> BCC: 
+[LOG] 2013-12-24 11:41:37 - INFO --> Subject: Account created
+[LOG] 2013-12-24 11:41:37 - INFO --> Body: Your account has been created.
+        Please click the following link to create a new password. 
+http://localhost/users/reset_password/f13d05f10e048a5c6da48dd4fac9640f4ce4f74e

@@ -1,0 +1,1349 @@
+[LOG] 2013-12-23 3:41:42 - INFO --> array (
+  'project_name' => 'asdas',
+  'project_desc' => 'asdsds',
+  'start_date' => '12/19/2013',
+  'end_date' => '12/27/2013',
+)
+[LOG] 2013-12-23 3:41:42 - INFO --> array (
+  'project_name' => 'asdas',
+  'project_desc' => 'asdsds',
+  'start_date' => '12/19/2013',
+  'end_date' => '12/27/2013',
+)
+[LOG] 2013-12-23 3:43:08 - INFO --> array (
+  'project_name' => 'czxczxczx',
+  'project_desc' => 'zxczxcxz',
+  'start_date' => '12/25/2013',
+  'end_date' => '12/27/2013',
+)
+[LOG] 2013-12-23 3:43:08 - INFO --> array (
+  'project_name' => 'czxczxczx',
+  'project_desc' => 'zxczxcxz',
+  'start_date' => '12/25/2013',
+  'end_date' => '12/27/2013',
+)
+[LOG] 2013-12-23 3:43:08 - INFO --> array (
+  'project_name' => 'czxczxczx',
+  'project_desc' => 'zxczxcxz',
+  'start_date' => '1969-12-31 19:00:00',
+  'end_date' => '1969-12-31 19:00:00',
+  'created' => 1387788188,
+  'modified' => 1387788188,
+  'actual_start_date' => '1969-12-31 19:00:00',
+  'actual_end_date' => '1969-12-31 19:00:00',
+  'pm_id' => '6',
+)
+[LOG] 2013-12-23 3:44:54 - INFO --> array (
+  'project_name' => 'sadsasdas',
+  'project_desc' => 'dasdasdas',
+  'start_date' => '12/25/2013',
+  'end_date' => '12/28/2013',
+)
+[LOG] 2013-12-23 3:44:54 - INFO --> array (
+  'project_name' => 'sadsasdas',
+  'project_desc' => 'dasdasdas',
+  'start_date' => '12/25/2013',
+  'end_date' => '12/28/2013',
+)
+[LOG] 2013-12-23 3:44:54 - INFO --> array (
+  'project_name' => 'sadsasdas',
+  'project_desc' => 'dasdasdas',
+  'start_date' => '1969-12-31 19:00:12',
+  'end_date' => '1969-12-31 19:00:12',
+  'created' => 1387788294,
+  'modified' => 1387788294,
+  'actual_start_date' => '1969-12-31 19:00:12',
+  'actual_end_date' => '1969-12-31 19:00:12',
+  'pm_id' => '6',
+)
+[LOG] 2013-12-23 3:49:00 - INFO --> array (
+  'project_name' => 'asda',
+  'project_desc' => 'asdasda',
+  'start_date' => '12/17/2013',
+  'end_date' => '12/28/2013',
+)
+[LOG] 2013-12-23 3:49:00 - INFO --> array (
+  'project_name' => 'asda',
+  'project_desc' => 'asdasda',
+  'start_date' => '12/17/2013',
+  'end_date' => '12/28/2013',
+)
+[LOG] 2013-12-23 3:49:00 - INFO --> array (
+  'project_name' => 'asda',
+  'project_desc' => 'asdasda',
+  'start_date' => '2013-12-17',
+  'end_date' => '2013-12-28',
+  'created' => 1387788540,
+  'modified' => 1387788540,
+  'actual_start_date' => '2013-12-17',
+  'actual_end_date' => '2013-12-28',
+  'pm_id' => '6',
+)
+[LOG] 2013-12-23 3:52:23 - INFO --> array (
+  'project_name' => 'Marketing Website',
+  'project_desc' => 'This is a new marketing website',
+  'start_date' => '12/25/2013',
+  'end_date' => '01/30/2014',
+)
+[LOG] 2013-12-23 3:52:23 - INFO --> array (
+  'project_name' => 'Marketing Website',
+  'project_desc' => 'This is a new marketing website',
+  'start_date' => '12/25/2013',
+  'end_date' => '01/30/2014',
+)
+[LOG] 2013-12-23 3:52:23 - INFO --> array (
+  'project_name' => 'Marketing Website',
+  'project_desc' => 'This is a new marketing website',
+  'start_date' => '2013-12-25',
+  'end_date' => '2014-01-30',
+  'created' => 1387788743,
+  'modified' => 1387788743,
+  'actual_start_date' => '2013-12-25',
+  'actual_end_date' => '2014-01-30',
+  'pm_id' => '6',
+)
+[LOG] 2013-12-23 10:24:04 - INFO --> Logged in -1
+[LOG] 2013-12-23 10:25:35 - INFO --> Logged in -1
+[LOG] 2013-12-23 10:27:38 - INFO --> Logged in -1
+[LOG] 2013-12-23 10:28:06 - INFO --> Logged in -1
+[LOG] 2013-12-23 10:28:13 - INFO --> Logged in -1
+[LOG] 2013-12-23 10:28:18 - INFO --> Logged in -1
+[LOG] 2013-12-23 10:29:36 - INFO --> array (
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25',
+  'end_date' => '2014-05-29',
+  'created' => 1387812576,
+  'modified' => 1387812576,
+  'actual_start_date' => '2013-12-25',
+  'actual_end_date' => '2014-05-29',
+  'pm_id' => '1',
+)
+[LOG] 2013-12-23 10:48:36 - INFO --> array (
+  0 => 
+  array (
+    'role_types_role_type_id' => '1',
+    'user_role_id' => '4',
+  ),
+  1 => 
+  array (
+    'role_types_role_type_id' => '2',
+    'user_role_id' => '5',
+  ),
+  2 => 
+  array (
+    'role_types_role_type_id' => '3',
+    'user_role_id' => '6',
+  ),
+)
+[LOG] 2013-12-23 10:59:38 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 11:03:20 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 11:06:15 - INFO --> array (
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25',
+  'end_date' => '2014-03-26',
+  'created' => 1387814775,
+  'modified' => 1387814775,
+  'actual_start_date' => '2013-12-25',
+  'actual_end_date' => '2014-03-26',
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 11:16:27 - INFO --> Logged in -1
+[LOG] 2013-12-23 12:12:04 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 12:13:47 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 12:17:44 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 12:32:33 - INFO --> 
+[LOG] 2013-12-23 12:33:07 - INFO --> 
+[LOG] 2013-12-23 12:33:59 - INFO --> SELECT *
+         FROM projects
+        WHERE project_id = '16' 
+[LOG] 2013-12-23 12:33:59 - INFO --> 
+[LOG] 2013-12-23 12:34:43 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 12:37:48 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 12:37:48 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 12:39:33 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 12:39:33 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 12:41:35 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 12:41:35 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 12:41:51 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 12:41:51 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 12:44:19 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 12:44:19 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 12:47:03 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 12:47:03 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 12:47:34 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 12:47:34 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:16:22 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:16:22 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:24:31 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:24:31 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:25:52 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:25:52 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:29:02 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:29:02 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:29:45 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:29:45 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:31:05 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:31:05 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:34:39 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:34:39 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:35:08 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:35:08 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:42:04 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:42:04 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:50:54 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:50:54 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:52:07 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:52:07 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:52:43 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:52:43 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:53:20 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:53:20 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:53:42 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:53:42 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:54:30 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:54:30 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:55:23 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:55:23 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:55:49 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:55:49 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 13:56:10 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 13:56:10 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 14:04:52 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 14:04:52 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 14:05:51 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 14:05:51 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 14:08:13 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 14:08:13 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 14:08:44 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 14:08:44 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 14:10:31 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 14:10:31 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 14:13:40 - INFO --> array (
+  'project_id' => '16',
+  'created' => '1387814775',
+  'modified' => '1387814775',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '2013-12-25 00:00:00',
+  'actual_start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2014-03-26 00:00:00',
+  'actual_end_date' => '2014-03-26 00:00:00',
+  'status' => NULL,
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 14:13:40 - INFO --> {"project_id":"16","created":"1387814775","modified":"1387814775","project_name":"2014 First Quarter Enhancements","project_desc":"2014 First Quarter Enhancements","start_date":"2013-12-25 00:00:00","actual_start_date":"2013-12-25 00:00:00","end_date":"2014-03-26 00:00:00","actual_end_date":"2014-03-26 00:00:00","status":null,"pm_id":"5"}
+[LOG] 2013-12-23 14:39:12 - INFO --> array (
+  'project_name' => 'New Project',
+  'project_desc' => 'To test trigger',
+  'start_date' => '2013-12-24',
+  'end_date' => '2013-12-30',
+  'created' => 1387827552,
+  'modified' => 1387827552,
+  'actual_start_date' => '2013-12-24',
+  'actual_end_date' => '2013-12-30',
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 14:41:18 - INFO --> array (
+  'project_name' => 'Another Project',
+  'project_desc' => 'One more test',
+  'start_date' => '2013-12-25',
+  'end_date' => '2013-12-31',
+  'created' => 1387827678,
+  'modified' => 1387827678,
+  'actual_start_date' => '2013-12-25',
+  'actual_end_date' => '2013-12-31',
+  'pm_id' => '5',
+)
+[LOG] 2013-12-23 15:16:20 - INFO --> array (
+  'project_name' => 'New Project',
+  'project_desc' => 'To test trigger',
+  'start_date' => '12/25/2013',
+  'end_date' => '12/28/2013',
+  'colorpicker' => '#dc2127',
+)
+[LOG] 2013-12-23 15:39:33 - INFO --> array (
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '12/25/2013',
+  'end_date' => '3/26/2014',
+  'status' => '#7bd148',
+)
+[LOG] 2013-12-23 15:40:03 - INFO --> array (
+  2 => '7',
+)
+[LOG] 2013-12-23 15:40:18 - INFO --> array (
+  'project_name' => 'My Project',
+  'project_desc' => 'Hello',
+  'start_date' => '2013-12-24',
+  'end_date' => '2013-12-26',
+  'created' => 1387831218,
+  'modified' => 1387831218,
+  'actual_start_date' => '2013-12-24',
+  'actual_end_date' => '2013-12-26',
+  'status' => 'green',
+  'pm_id' => '7',
+)
+[LOG] 2013-12-23 15:42:27 - INFO --> array (
+  'project_name' => 'My Project',
+  'project_desc' => 'Hello',
+  'start_date' => '12/24/2013',
+  'end_date' => '12/26/2013',
+  'status' => '#ffb878',
+)
+[LOG] 2013-12-23 15:54:03 - INFO --> array (
+  'project_name' => 'My Project',
+  'project_desc' => 'Hello',
+  'start_date' => '12/24/2013',
+  'end_date' => '12/26/2013',
+  'status' => '#ffb878',
+)
+[LOG] 2013-12-23 15:55:07 - INFO --> array (
+  'project_id' => '19',
+  'project_name' => 'My Project',
+  'project_desc' => 'Hello',
+  'start_date' => '12/24/2013',
+  'end_date' => '12/26/2013',
+  'status' => '#ffb878',
+)
+[LOG] 2013-12-23 15:55:13 - INFO --> array (
+  'project_id' => '19',
+  'project_name' => 'My Project',
+  'project_desc' => 'Hello',
+  'start_date' => '12/24/2013',
+  'end_date' => '12/26/2013',
+  'status' => '#7bd148',
+)
+[LOG] 2013-12-23 15:57:40 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 15:57:43 - INFO --> Logged in -1
+[LOG] 2013-12-23 16:18:25 - INFO --> array (
+  'login_email' => '',
+  'login_password' => '',
+  'login_remember' => 'on',
+)
+[LOG] 2013-12-23 16:20:46 - INFO --> array (
+  'login_email' => '',
+  'login_password' => '',
+  'login_remember' => 'on',
+)
+[LOG] 2013-12-23 16:20:47 - INFO --> array (
+  'login_email' => 'danbrown@sharklasers.com',
+  'login_password' => 'password',
+  'login_remember' => 'on',
+)
+[LOG] 2013-12-23 16:20:47 - INFO --> array (
+  2 => '7',
+)
+[LOG] 2013-12-23 16:20:53 - INFO --> Logged in -6
+[LOG] 2013-12-23 16:20:58 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'sdsdsdsdd',
+)
+[LOG] 2013-12-23 16:23:01 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'dsfsfsdfsdfsdfsdfsdfsd',
+  'login_remember' => 'on',
+)
+[LOG] 2013-12-23 16:23:34 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'baharirsdfdsfdsf',
+)
+[LOG] 2013-12-23 16:24:25 - INFO --> Logged in -6
+[LOG] 2013-12-23 16:24:30 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => '',
+)
+[LOG] 2013-12-23 16:38:06 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'sfdsfsdf',
+)
+[LOG] 2013-12-23 16:38:12 - INFO --> array (
+  'login_email' => 'danbrownsdfdsfdsfharklasers.com',
+  'login_password' => '',
+  'login_remember' => 'on',
+)
+[LOG] 2013-12-23 16:38:56 - INFO --> array (
+  'login_email' => 'danbrownsdfdsfdsfharklasers.com',
+  'login_password' => '',
+  'login_remember' => 'on',
+)
+[LOG] 2013-12-23 16:39:44 - INFO --> array (
+  'login_email' => 'danbrownsdfdsfdsfharklasers.com',
+  'login_password' => '',
+  'login_remember' => 'on',
+)
+[LOG] 2013-12-23 16:40:27 - INFO --> array (
+  'login_email' => 'danbrownsdfdsfdsfharklasers.com',
+  'login_password' => '',
+  'login_remember' => 'on',
+)
+[LOG] 2013-12-23 16:42:05 - INFO --> array (
+  'login_email' => 'danbrownsdfdsfdsfharklasers.com',
+  'login_password' => '',
+  'login_remember' => 'on',
+)
+[LOG] 2013-12-23 16:42:24 - INFO --> array (
+  'login_email' => 'danbrownsdfdsfdsfharklasers.com',
+  'login_password' => '',
+  'login_remember' => 'on',
+)
+[LOG] 2013-12-23 16:42:38 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'dfsdfsdfsdfs',
+)
+[LOG] 2013-12-23 16:44:49 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'password',
+)
+[LOG] 2013-12-23 16:45:06 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 16:45:06 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 16:48:23 - INFO --> array (
+  'login_email' => 'danbrown@sharklasers.com',
+  'login_password' => 'sdfdddfdfdd',
+)
+[LOG] 2013-12-23 16:48:36 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'baharir',
+  'login_remember' => 'on',
+)
+[LOG] 2013-12-23 16:48:36 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 16:48:42 - INFO --> Logged in -1
+[LOG] 2013-12-23 17:28:33 - INFO --> Logged in -1
+[LOG] 2013-12-23 17:31:07 - INFO --> Logged in -1
+[LOG] 2013-12-23 17:33:45 - INFO --> Logged in -1
+[LOG] 2013-12-23 17:34:28 - INFO --> Logged in -1
+[LOG] 2013-12-23 17:37:00 - INFO --> Logged in -1
+[LOG] 2013-12-23 17:38:17 - INFO --> Logged in -1
+[LOG] 2013-12-23 17:39:18 - INFO --> Logged in -1
+[LOG] 2013-12-23 17:43:48 - INFO --> Logged in -1
+[LOG] 2013-12-23 17:45:07 - INFO --> Logged in -1
+[LOG] 2013-12-23 17:46:06 - INFO --> Logged in -1
+[LOG] 2013-12-23 17:56:02 - INFO --> Logged in -1
+[LOG] 2013-12-23 19:11:59 - INFO --> array (
+  'login_email' => 'danbrown@sharklasers.com',
+  'login_password' => 'password',
+)
+[LOG] 2013-12-23 19:11:59 - INFO --> array (
+  2 => '7',
+)
+[LOG] 2013-12-23 19:12:21 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:12:21 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:12:43 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:12:43 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:12:44 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:12:44 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:12:55 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:12:55 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:14:28 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:14:28 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:14:29 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:16:14 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:16:14 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:16:14 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:16:14 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:16:14 - INFO --> array_key_exists ( 2, Array ) - 1
+[LOG] 2013-12-23 19:18:18 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:18:18 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:18:18 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:18:18 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:18:18 - INFO --> array_key_exists ( 2, Array ) - 1
+[LOG] 2013-12-23 19:18:19 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:18:19 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:18:19 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:18:19 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:18:19 - INFO --> array_key_exists ( 2, Array ) - 1
+[LOG] 2013-12-23 19:19:19 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:19:19 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:19:19 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:19:19 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:19:19 - INFO --> array_key_exists ( 2, Array ) - 1
+[LOG] 2013-12-23 19:19:19 - INFO --> PM Home Logged in -
+[LOG] 2013-12-23 19:21:43 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_remember' => 'on',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:21:43 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:21:43 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:21:43 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:21:43 - INFO --> array_key_exists ( 2, Array ) - 1
+[LOG] 2013-12-23 19:21:43 - INFO --> PM Home Logged in -
+[LOG] 2013-12-23 19:23:29 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_remember' => 'on',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:23:29 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:23:29 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:23:29 - INFO --> on
+[LOG] 2013-12-23 19:23:29 - INFO --> PM Home Logged in -
+[LOG] 2013-12-23 19:23:52 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_remember' => 'on',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:23:52 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:23:52 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:23:52 - INFO --> on
+[LOG] 2013-12-23 19:23:52 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:24:18 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_remember' => 'on',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:24:18 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:24:18 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:24:18 - INFO --> on
+[LOG] 2013-12-23 19:24:18 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:25:16 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_remember' => 'on',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:25:16 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:25:16 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:25:16 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:26:16 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_remember' => 'on',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:26:16 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:26:16 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:26:16 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:27:05 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_remember' => 'on',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:27:05 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:27:05 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:27:05 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:27:05 - INFO --> array_key_exists ( 2, roles )
+[LOG] 2013-12-23 19:27:44 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_remember' => 'on',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:27:44 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:27:44 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:27:44 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:31:58 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_remember' => 'on',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:31:58 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:31:58 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:31:58 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:33:02 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_remember' => 'on',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:33:02 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:33:02 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:33:02 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:33:02 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 19:38:51 - INFO --> PM Home Logged in -7
+[LOG] 2013-12-23 19:38:51 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 19:38:58 - INFO --> PM Home Logged in -7
+[LOG] 2013-12-23 19:38:58 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 19:39:37 - INFO --> PM Home Logged in -7
+[LOG] 2013-12-23 19:39:37 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 19:40:03 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_remember' => 'on',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 19:40:03 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 19:40:03 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-23 19:40:03 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:40:03 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 19:42:01 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:42:01 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 19:42:08 - INFO --> array (
+  'project_id' => '16',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '12/25/2013',
+  'end_date' => '3/26/2014',
+  'status' => '#7bd148',
+)
+[LOG] 2013-12-23 19:42:08 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:42:08 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 19:42:14 - INFO --> array (
+  'project_id' => '16',
+  'project_name' => '2014 First Quarter Enhancements',
+  'project_desc' => '2014 First Quarter Enhancements',
+  'start_date' => '12/25/2013',
+  'end_date' => '3/26/2014',
+  'status' => '#ffb878',
+)
+[LOG] 2013-12-23 19:42:14 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:42:14 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 19:44:37 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:44:37 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 19:44:42 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 19:44:42 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 20:29:55 - INFO --> array (
+  0 => 
+  array (
+    'user_id' => '1',
+    'created' => '1387693406',
+    'modified' => '1387693406',
+    'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+    'password' => '47ffb9503eec0c7a6cfb3165ae624db8c89c12b3',
+    'last_login' => '1387845603',
+    'timezon' => NULL,
+    'first_name' => 'Mahendran',
+    'last_name' => 'Nair',
+    'email' => 'mahendran.nair@gmail.com',
+    'avatar' => '\\uploads\\avatars\\default.gif',
+    'status' => 'Active',
+  ),
+)
+[LOG] 2013-12-23 20:32:49 - INFO --> array (
+  0 => 
+  array (
+    'user_id' => '1',
+    'created' => '1387693406',
+    'modified' => '1387693406',
+    'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+    'password' => '47ffb9503eec0c7a6cfb3165ae624db8c89c12b3',
+    'last_login' => '1387845603',
+    'timezon' => NULL,
+    'first_name' => 'Mahendran',
+    'last_name' => 'Nair',
+    'email' => 'mahendran.nair@gmail.com',
+    'avatar' => '\\uploads\\avatars\\default.gif',
+    'status' => 'Active',
+  ),
+)
+[LOG] 2013-12-23 20:33:44 - INFO --> array (
+  0 => 
+  array (
+    'user_id' => '1',
+    'created' => '1387693406',
+    'modified' => '1387693406',
+    'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+    'password' => '47ffb9503eec0c7a6cfb3165ae624db8c89c12b3',
+    'last_login' => '1387845603',
+    'timezon' => NULL,
+    'first_name' => 'Mahendran',
+    'last_name' => 'Nair',
+    'email' => 'mahendran.nair@gmail.com',
+    'avatar' => '\\uploads\\avatars\\default.gif',
+    'status' => 'Inactive',
+  ),
+)
+[LOG] 2013-12-23 20:36:15 - INFO --> array (
+  0 => 
+  array (
+    'user_id' => '1',
+    'created' => '1387693406',
+    'modified' => '1387693406',
+    'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+    'password' => '47ffb9503eec0c7a6cfb3165ae624db8c89c12b3',
+    'last_login' => '1387845603',
+    'timezon' => NULL,
+    'first_name' => 'Mahendran',
+    'last_name' => 'Nair',
+    'email' => 'mahendran.nair@gmail.com',
+    'avatar' => '\\uploads\\avatars\\default.gif',
+    'status' => 'Active',
+  ),
+)
+[LOG] 2013-12-23 20:37:18 - INFO --> array (
+  0 => 
+  array (
+    'user_id' => '1',
+    'created' => '1387693406',
+    'modified' => '1387693406',
+    'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+    'password' => '47ffb9503eec0c7a6cfb3165ae624db8c89c12b3',
+    'last_login' => '1387845603',
+    'timezon' => NULL,
+    'first_name' => 'Mahendran',
+    'last_name' => 'Nair',
+    'email' => 'mahendran.nair@gmail.com',
+    'avatar' => '\\uploads\\avatars\\default.gif',
+    'status' => 'Inactive',
+  ),
+)
+[LOG] 2013-12-23 20:37:30 - INFO --> array (
+  0 => 
+  array (
+    'user_id' => '1',
+    'created' => '1387693406',
+    'modified' => '1387693406',
+    'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+    'password' => '47ffb9503eec0c7a6cfb3165ae624db8c89c12b3',
+    'last_login' => '1387845603',
+    'timezon' => NULL,
+    'first_name' => 'Mahendran',
+    'last_name' => 'Nair',
+    'email' => 'mahendran.nair@gmail.com',
+    'avatar' => '\\uploads\\avatars\\default.gif',
+    'status' => 'Active',
+  ),
+)
+[LOG] 2013-12-23 20:39:22 - INFO --> array (
+  0 => 
+  array (
+    'user_id' => '1',
+    'created' => '1387693406',
+    'modified' => '1387693406',
+    'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+    'password' => '47ffb9503eec0c7a6cfb3165ae624db8c89c12b3',
+    'last_login' => '1387845603',
+    'timezon' => NULL,
+    'first_name' => 'Mahendran',
+    'last_name' => 'Nair',
+    'email' => 'mahendran.nair@gmail.com',
+    'avatar' => '\\uploads\\avatars\\default.gif',
+    'status' => 'Inactive',
+  ),
+)
+[LOG] 2013-12-23 20:39:30 - INFO --> array (
+  0 => 
+  array (
+    'user_id' => '1',
+    'created' => '1387693406',
+    'modified' => '1387693406',
+    'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+    'password' => '47ffb9503eec0c7a6cfb3165ae624db8c89c12b3',
+    'last_login' => '1387845603',
+    'timezon' => NULL,
+    'first_name' => 'Mahendran',
+    'last_name' => 'Nair',
+    'email' => 'mahendran.nair@gmail.com',
+    'avatar' => '\\uploads\\avatars\\default.gif',
+    'status' => 'Active',
+  ),
+)
+[LOG] 2013-12-23 20:41:21 - INFO --> array (
+  'user_id' => '1',
+  'created' => '1387693406',
+  'modified' => '1387693406',
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'password' => '47ffb9503eec0c7a6cfb3165ae624db8c89c12b3',
+  'last_login' => '1387845603',
+  'timezon' => NULL,
+  'first_name' => 'Mahendran',
+  'last_name' => 'Nair',
+  'email' => 'mahendran.nair@gmail.com',
+  'avatar' => '\\uploads\\avatars\\default.gif',
+  'status' => 'Inactive',
+)
+[LOG] 2013-12-23 20:51:48 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 20:51:48 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 21:02:25 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 21:02:25 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 21:08:27 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 21:08:27 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 21:10:57 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 21:10:57 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 21:14:51 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 21:14:51 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 21:15:46 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 21:15:46 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 21:16:54 - INFO --> PM Home Logged in -1
+[LOG] 2013-12-23 21:16:54 - INFO --> array_key_exists ( 2, roles )1
+[LOG] 2013-12-23 21:59:38 - INFO --> array (
+  'login_email' => 'danbrown@sharklasers.com',
+  'login_remember' => 'on',
+  'login_password' => 'password',
+)
+[LOG] 2013-12-23 21:59:38 - INFO --> array (
+  'token' => '2e7086b50c3ddeed6086632300ab8b4ca2672043',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 21:59:38 - INFO --> array (
+  2 => '7',
+)
+[LOG] 2013-12-23 22:00:59 - INFO --> array (
+  'login_email' => 'mahendran.nair@gmail.com',
+  'login_remember' => 'on',
+  'login_password' => 'baharir',
+)
+[LOG] 2013-12-23 22:00:59 - INFO --> array (
+  'token' => '5bb65a9e2cb5661bfca06fa7f91418e1198c7d88',
+  'status' => 'Active',
+)
+[LOG] 2013-12-23 22:00:59 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)

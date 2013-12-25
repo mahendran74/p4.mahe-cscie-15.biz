@@ -14,11 +14,11 @@ If you want a different default time format for this app, set it below
 */
 
 # What is the name of this app?
-	define('APP_NAME', 'Sample App');  
+	define('APP_NAME', 'Quick Project Management');  
 
 # When email is sent out from the server, where should it come from?
 # Ideally, this should match the domain name
-	define('APP_EMAIL', 'webmaster@sample-app.com'); 
+	define('APP_EMAIL', 'webmaster@p4.mahe-cscie-15.biz'); 
 
 /* 
 A email designated to receive messages from the server. Examples:
@@ -28,20 +28,20 @@ A email designated to receive messages from the server. Examples:
  	
  	Some might want this to be the same as the APP_EMAIL, others might want to create a designated gmail address for it
 */ 	
-	define('SYSTEM_EMAIL', 'webmaster@myapp.com'); 
+	define('SYSTEM_EMAIL', 'webmaster@mahe-cscie-15.biz'); 
 
 # Default DB name for this app
-	define('DB_NAME', 'myapp_com'); 
+	define('DB_NAME', 'p4.mahe-cscie-15.biz'); 
 
 # Timezone
 	define('TIMEZONE', 'America/New_York');
 
 # If your app is going to have outgoing emails, you should fill in your SMTP settings
 # For this you could use gmail SMTP or something like http://sendgrid.com/
-	//define('SMTP_HOST', '');
-	//define('SMTP_USERNAME', '');
-	//define('SMTP_PASSWORD', '');
+	define('SMTP_HOST', 'smtp.sendgrid.net');
+	define('SMTP_USERNAME', 'mahendran74'); //AWS SES User - ses-smtp-user.20131220-015413
+	define('SMTP_PASSWORD', '2#4RfDsWe');
 
 # For extra security, you might want to set different salts than what the core uses
-	//define('PASSWORD_SALT', '');
-	//define('TOKEN_SALT', '');
+	define('PASSWORD_SALT', 'zJ0)A5s#-Te(C9Sh4N@@r7fZ)gi-xq3LR&xSdmHCUrUhaM7HUuw%QLtgkKMgsJ0E');
+	define('TOKEN_SALT', 'tG3zpJPVogvnobWS4bk0AtwqP%@prf(e!@nQLQsPY%cgpn^*h#iJ^)hnJl%YufoC');

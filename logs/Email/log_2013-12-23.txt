@@ -1,0 +1,184 @@
+[LOG] 2013-12-23 20:24:37 - INFO --> --------------------------
+[LOG] 2013-12-23 20:24:37 - INFO --> Controller/Method: users/deactivate
+[LOG] 2013-12-23 20:24:37 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:24:37 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:24:37 - INFO --> To: 1 1 (1), 
+[LOG] 2013-12-23 20:24:37 - INFO --> CC: 
+[LOG] 2013-12-23 20:24:37 - INFO --> BCC: 
+[LOG] 2013-12-23 20:24:37 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:24:37 - INFO --> Body: Your account has been deactivated. Please contact the admin for more details.
+[LOG] 2013-12-23 20:24:37 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 20:25:15 - INFO --> --------------------------
+[LOG] 2013-12-23 20:25:15 - INFO --> Controller/Method: users/activate
+[LOG] 2013-12-23 20:25:15 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:25:15 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:25:15 - INFO --> To: 1 1 (1), 
+[LOG] 2013-12-23 20:25:15 - INFO --> CC: 
+[LOG] 2013-12-23 20:25:15 - INFO --> BCC: 
+[LOG] 2013-12-23 20:25:15 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:25:15 - INFO --> Body: Your account has been activated.
+[LOG] 2013-12-23 20:25:15 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 20:26:24 - INFO --> --------------------------
+[LOG] 2013-12-23 20:26:24 - INFO --> Controller/Method: users/deactivate
+[LOG] 2013-12-23 20:26:24 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:26:24 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:26:24 - INFO --> To:   (), 
+[LOG] 2013-12-23 20:26:24 - INFO --> CC: 
+[LOG] 2013-12-23 20:26:24 - INFO --> BCC: 
+[LOG] 2013-12-23 20:26:24 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:26:24 - INFO --> Body: Your account has been deactivated. Please contact the admin for more details.
+[LOG] 2013-12-23 20:26:24 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 20:26:40 - INFO --> --------------------------
+[LOG] 2013-12-23 20:26:40 - INFO --> Controller/Method: users/activate
+[LOG] 2013-12-23 20:26:40 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:26:40 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:26:40 - INFO --> To:   (), 
+[LOG] 2013-12-23 20:26:40 - INFO --> CC: 
+[LOG] 2013-12-23 20:26:40 - INFO --> BCC: 
+[LOG] 2013-12-23 20:26:40 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:26:40 - INFO --> Body: Your account has been activated.
+[LOG] 2013-12-23 20:26:40 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 20:29:55 - INFO --> --------------------------
+[LOG] 2013-12-23 20:29:55 - INFO --> Controller/Method: users/deactivate
+[LOG] 2013-12-23 20:29:55 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:29:55 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:29:55 - INFO --> To:   (), 
+[LOG] 2013-12-23 20:29:55 - INFO --> CC: 
+[LOG] 2013-12-23 20:29:55 - INFO --> BCC: 
+[LOG] 2013-12-23 20:29:55 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:29:55 - INFO --> Body: Your account has been deactivated. Please contact the admin for more details.
+[LOG] 2013-12-23 20:29:55 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 20:30:02 - INFO --> --------------------------
+[LOG] 2013-12-23 20:30:02 - INFO --> Controller/Method: users/activate
+[LOG] 2013-12-23 20:30:02 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:30:02 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:30:02 - INFO --> To:   (), 
+[LOG] 2013-12-23 20:30:02 - INFO --> CC: 
+[LOG] 2013-12-23 20:30:02 - INFO --> BCC: 
+[LOG] 2013-12-23 20:30:02 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:30:02 - INFO --> Body: Your account has been activated.
+[LOG] 2013-12-23 20:30:02 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 20:32:49 - INFO --> --------------------------
+[LOG] 2013-12-23 20:32:49 - INFO --> Controller/Method: users/deactivate
+[LOG] 2013-12-23 20:32:49 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:32:49 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:32:49 - INFO --> To:   (), 
+[LOG] 2013-12-23 20:32:49 - INFO --> CC: 
+[LOG] 2013-12-23 20:32:49 - INFO --> BCC: 
+[LOG] 2013-12-23 20:32:49 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:32:49 - INFO --> Body: Your account has been deactivated. Please contact the admin for more details.
+[LOG] 2013-12-23 20:32:49 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 20:33:44 - INFO --> --------------------------
+[LOG] 2013-12-23 20:33:44 - INFO --> Controller/Method: users/activate
+[LOG] 2013-12-23 20:33:44 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:33:44 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:33:44 - INFO --> To:   (), 
+[LOG] 2013-12-23 20:33:44 - INFO --> CC: 
+[LOG] 2013-12-23 20:33:44 - INFO --> BCC: 
+[LOG] 2013-12-23 20:33:44 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:33:44 - INFO --> Body: Your account has been activated.
+[LOG] 2013-12-23 20:33:44 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 20:36:15 - INFO --> --------------------------
+[LOG] 2013-12-23 20:36:15 - INFO --> Controller/Method: users/deactivate
+[LOG] 2013-12-23 20:36:15 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:36:15 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:36:15 - INFO --> To:   (), 
+[LOG] 2013-12-23 20:36:15 - INFO --> CC: 
+[LOG] 2013-12-23 20:36:15 - INFO --> BCC: 
+[LOG] 2013-12-23 20:36:15 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:36:15 - INFO --> Body: Your account has been deactivated. Please contact the admin for more details.
+[LOG] 2013-12-23 20:36:15 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 20:37:18 - INFO --> --------------------------
+[LOG] 2013-12-23 20:37:18 - INFO --> Controller/Method: users/activate
+[LOG] 2013-12-23 20:37:18 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:37:18 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:37:18 - INFO --> To:   (), 
+[LOG] 2013-12-23 20:37:18 - INFO --> CC: 
+[LOG] 2013-12-23 20:37:18 - INFO --> BCC: 
+[LOG] 2013-12-23 20:37:18 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:37:18 - INFO --> Body: Your account has been activated.
+[LOG] 2013-12-23 20:37:18 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 20:37:30 - INFO --> --------------------------
+[LOG] 2013-12-23 20:37:30 - INFO --> Controller/Method: users/deactivate
+[LOG] 2013-12-23 20:37:30 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:37:30 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:37:30 - INFO --> To:   (), 
+[LOG] 2013-12-23 20:37:30 - INFO --> CC: 
+[LOG] 2013-12-23 20:37:30 - INFO --> BCC: 
+[LOG] 2013-12-23 20:37:30 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:37:30 - INFO --> Body: Your account has been deactivated. Please contact the admin for more details.
+[LOG] 2013-12-23 20:37:30 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 20:39:22 - INFO --> --------------------------
+[LOG] 2013-12-23 20:39:22 - INFO --> Controller/Method: users/activate
+[LOG] 2013-12-23 20:39:22 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:39:22 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:39:22 - INFO --> To:   (), 
+[LOG] 2013-12-23 20:39:22 - INFO --> CC: 
+[LOG] 2013-12-23 20:39:22 - INFO --> BCC: 
+[LOG] 2013-12-23 20:39:22 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:39:22 - INFO --> Body: Your account has been activated.
+[LOG] 2013-12-23 20:39:22 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 20:39:30 - INFO --> --------------------------
+[LOG] 2013-12-23 20:39:30 - INFO --> Controller/Method: users/deactivate
+[LOG] 2013-12-23 20:39:30 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:39:30 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:39:30 - INFO --> To:   (), 
+[LOG] 2013-12-23 20:39:30 - INFO --> CC: 
+[LOG] 2013-12-23 20:39:30 - INFO --> BCC: 
+[LOG] 2013-12-23 20:39:30 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:39:30 - INFO --> Body: Your account has been deactivated. Please contact the admin for more details.
+[LOG] 2013-12-23 20:39:30 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 20:41:21 - INFO --> --------------------------
+[LOG] 2013-12-23 20:41:21 - INFO --> Controller/Method: users/activate
+[LOG] 2013-12-23 20:41:21 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY webmaster@myapp.com
+[LOG] 2013-12-23 20:41:21 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 20:41:21 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-23 20:41:21 - INFO --> CC: 
+[LOG] 2013-12-23 20:41:21 - INFO --> BCC: 
+[LOG] 2013-12-23 20:41:21 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 20:41:21 - INFO --> Body: Your account has been activated.
+[LOG] 2013-12-23 20:41:21 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 23:01:42 - INFO --> --------------------------
+[LOG] 2013-12-23 23:01:42 - INFO --> Controller/Method: users/deactivate
+[LOG] 2013-12-23 23:01:42 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 23:01:42 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-23 23:01:42 - INFO --> CC: 
+[LOG] 2013-12-23 23:01:42 - INFO --> BCC: 
+[LOG] 2013-12-23 23:01:42 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 23:01:42 - INFO --> Body: Your account has been deactivated. Please contact the admin for more details.
+[LOG] 2013-12-23 23:01:42 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 23:02:13 - INFO --> --------------------------
+[LOG] 2013-12-23 23:02:13 - INFO --> Controller/Method: users/activate
+[LOG] 2013-12-23 23:02:13 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 23:02:13 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-23 23:02:13 - INFO --> CC: 
+[LOG] 2013-12-23 23:02:13 - INFO --> BCC: 
+[LOG] 2013-12-23 23:02:13 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 23:02:13 - INFO --> Body: Your account has been activated.
+[LOG] 2013-12-23 23:02:13 - INFO --> FAILED TO SEND EMAIL
+[LOG] 2013-12-23 23:04:24 - INFO --> --------------------------
+[LOG] 2013-12-23 23:04:24 - INFO --> Controller/Method: users/deactivate
+[LOG] 2013-12-23 23:04:24 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 23:04:24 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-23 23:04:24 - INFO --> CC: 
+[LOG] 2013-12-23 23:04:24 - INFO --> BCC: 
+[LOG] 2013-12-23 23:04:24 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 23:04:24 - INFO --> Body: Your account has been deactivated. Please contact the admin for more details.
+[LOG] 2013-12-23 23:04:31 - INFO --> --------------------------
+[LOG] 2013-12-23 23:04:31 - INFO --> Controller/Method: users/activate
+[LOG] 2013-12-23 23:04:31 - INFO --> From: Quick Project Management (webmaster@sample-app.com)
+[LOG] 2013-12-23 23:04:31 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-23 23:04:31 - INFO --> CC: 
+[LOG] 2013-12-23 23:04:31 - INFO --> BCC: 
+[LOG] 2013-12-23 23:04:31 - INFO --> Subject: Account deactivated
+[LOG] 2013-12-23 23:04:31 - INFO --> Body: Your account has been activated.
+[LOG] 2013-12-23 23:54:33 - INFO --> --------------------------
+[LOG] 2013-12-23 23:54:33 - INFO --> Controller/Method: users/set_temp_token
+[LOG] 2013-12-23 23:54:34 - INFO --> From: Quick Project Management (webmaster@p4.mahe-cscie-15.biz)
+[LOG] 2013-12-23 23:54:34 - INFO --> To: Mahendran Nair (mahendran.nair@gmail.com), 
+[LOG] 2013-12-23 23:54:34 - INFO --> CC: 
+[LOG] 2013-12-23 23:54:34 - INFO --> BCC: 
+[LOG] 2013-12-23 23:54:34 - INFO --> Subject: Password reset
+[LOG] 2013-12-23 23:54:34 - INFO --> Body: Your password has been reset. 
+        Please click the following link to create a new password. 
+http://localhost/users/set_temp_token/1\users\reset_password\c71db3fb7861559ea81f8d3b50c9f87d0a9b7b40

@@ -1,0 +1,241 @@
+[LOG] 2013-12-24 0:36:17 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 0:39:10 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 0:46:43 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 0:46:53 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 0:48:51 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 0:48:51 - INFO --> roles - Array
+[LOG] 2013-12-24 0:49:49 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 0:50:54 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 0:50:54 - INFO --> array_key_exists ( 2, $roles )1
+[LOG] 2013-12-24 0:54:39 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 0:55:09 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 0:55:35 - INFO --> $this->usermahendran.nair@gmail.com
+[LOG] 2013-12-24 0:55:35 - INFO --> array_key_exists(2, $this->roles)1
+[LOG] 2013-12-24 0:56:16 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 0:56:16 - INFO --> $this->user
+[LOG] 2013-12-24 0:56:16 - INFO --> array_key_exists(2, $this->roles)1
+[LOG] 2013-12-24 0:58:32 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 0:58:58 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 1:56:54 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 3:16:03 - INFO --> 1
+[LOG] 2013-12-24 3:16:03 - INFO --> 1387827552
+[LOG] 2013-12-24 3:16:03 - INFO --> 1387827552
+[LOG] 2013-12-24 3:16:03 - INFO --> New Project
+[LOG] 2013-12-24 3:16:03 - INFO --> 0000-00-00 00:00:00
+[LOG] 2013-12-24 3:16:03 - INFO --> 0000-00-00 00:00:00
+[LOG] 2013-12-24 3:16:03 - INFO --> 0
+[LOG] 2013-12-24 3:16:03 - INFO --> 17
+[LOG] 2013-12-24 3:16:03 - INFO --> 
+[LOG] 2013-12-24 3:17:26 - INFO --> array (
+  'group_id' => '1',
+  'created' => '1387827552',
+  'modified' => '1387827552',
+  'group_desc' => 'New Project',
+  'start_date' => '0000-00-00 00:00:00',
+  'end_date' => '0000-00-00 00:00:00',
+  'per_complete' => '0',
+  'projects_project_id' => '17',
+  'parent_group_id' => NULL,
+)
+[LOG] 2013-12-24 3:17:56 - INFO --> array (
+  'group_id' => '1',
+  'created' => '1387827552',
+  'modified' => '1387827552',
+  'group_desc' => 'New Project',
+  'start_date' => '0000-00-00 00:00:00',
+  'end_date' => '0000-00-00 00:00:00',
+  'per_complete' => '0',
+  'projects_project_id' => '17',
+  'parent_group_id' => NULL,
+)
+[LOG] 2013-12-24 3:17:56 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 3:19:33 - INFO --> array (
+  'group_id' => '2',
+  'created' => '1387827678',
+  'modified' => '1387827678',
+  'group_desc' => 'Another Project',
+  'start_date' => '2013-12-25 00:00:00',
+  'end_date' => '2013-12-31 00:00:00',
+  'per_complete' => '0',
+  'projects_project_id' => '18',
+  'parent_group_id' => NULL,
+)
+[LOG] 2013-12-24 3:19:33 - INFO --> <project><task><pID>2</pID><pName>Another Project</pName><pStart>12/25/2013</pStart><pEnd>12/31/2013</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 3:31:49 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 3:38:23 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 10:25:40 - INFO --> array (
+)
+[LOG] 2013-12-24 10:35:00 - INFO --> array (
+  'first_name' => 'Jerry',
+  'last_name' => 'Seinfeld',
+  'email' => 'jerryseinfeld@sharklasers.com',
+  'confirm_email' => 'jerryseinfeld@sharklasers.com',
+  'admin_access' => 'on',
+)
+[LOG] 2013-12-24 10:40:59 - INFO --> array (
+  'first_name' => 'Jerry',
+  'last_name' => 'Seinfeld',
+  'email' => 'jerryseinfeld@sharklasers.com',
+  'confirm_email' => 'jerryseinfeld@sharklasers.com',
+  'admin_access' => 'on',
+)
+[LOG] 2013-12-24 10:42:56 - INFO --> array (
+  2 => '13',
+  1 => '14',
+)
+[LOG] 2013-12-24 10:43:10 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 11:14:10 - INFO --> array (
+  'first_name' => 'Elaine',
+  'last_name' => 'Benez',
+  'email' => 'elaine.benez@sharklasers.com',
+  'confirm_email' => 'elaine.benez@sharklasers.com',
+)
+[LOG] 2013-12-24 11:16:06 - INFO --> array (
+  2 => '15',
+)
+[LOG] 2013-12-24 11:22:17 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 11:37:52 - INFO --> array (
+  'tm_access' => 'on',
+  'first_name' => 'Cosmo',
+  'last_name' => 'Cramer',
+  'email' => 'cosmo.cramer@sharklasers.com',
+  'confirm_email' => 'cosmo.cramer@sharklasers.com',
+)
+[LOG] 2013-12-24 11:40:28 - INFO --> array (
+  2 => '16',
+  3 => '17',
+)
+[LOG] 2013-12-24 11:40:36 - INFO --> array (
+  1 => '4',
+  2 => '5',
+  3 => '6',
+)
+[LOG] 2013-12-24 11:41:37 - INFO --> array (
+  'tm_access' => 'on',
+  'first_name' => 'George',
+  'last_name' => 'Costanza',
+  'email' => 'george.costanza@sharklasers.com',
+  'confirm_email' => 'george.costanza@sharklasers.com',
+)
+[LOG] 2013-12-24 14:04:11 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 14:07:13 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes> </pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 14:11:31 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 14:23:02 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 14:25:45 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 14:26:49 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 14:38:55 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 15:13:33 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 15:13:37 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 15:22:09 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 15:29:14 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 15:33:40 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 15:36:36 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 15:43:06 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 15:46:10 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 15:51:53 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 15:54:30 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 16:05:36 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 16:26:33 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 16:28:50 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 16:39:01 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 16:39:39 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 16:45:43 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 16:47:45 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 17:07:38 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 17:08:41 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 17:09:01 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 17:10:17 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 17:17:50 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 17:28:31 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 17:32:56 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 17:33:45 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 17:35:05 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 17:38:49 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 17:41:20 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 18:00:48 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 18:02:13 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 18:02:51 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 18:03:19 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 18:03:33 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 18:06:07 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 18:39:16 - INFO --> <project></project>
+[LOG] 2013-12-24 18:39:20 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 18:44:20 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 18:45:17 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 18:52:08 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 18:53:03 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 18:59:36 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 19:01:46 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 19:02:15 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 19:02:48 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 19:03:25 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 19:05:18 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
+[LOG] 2013-12-24 19:07:38 - INFO --> <project><task><pID>1</pID><pName>New Project</pName><pStart>12/31/1969</pStart><pEnd>12/31/1969</pEnd><pColor>0000ff</pColor><pLink /><pMile>0</pMile><pRes/><pComp>0</pComp><pGroup>1</pGroup><pParent>0</pParent><pOpen>1</pOpen><pDepend/></task><task><pID>1</pID><pName>First task</pName><pStart>12/24/2013</pStart><pEnd>12/25/2013</pEnd><pColor>#ffb878</pColor><pLink /><pMile>0</pMile><pRes>Cosmo Cramer</pRes><pComp>25</pComp><pGroup>0</pGroup><pParent>1</pParent><pOpen>1</pOpen><pDepend/></task></project>
