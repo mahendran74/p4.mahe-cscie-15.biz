@@ -351,14 +351,14 @@ function get_group_XML($group) {
 function get_milestone_XML($milestone) {
   $xml_string = "<task><pID>".$milestone['milestone_id']."</pID>";
   $xml_string = $xml_string."<pName>".$milestone['milestone_desc']."</pName>";
-  $xml_string = $xml_string."<pStart>".$milestone['milestone_date']."</pStart>";
-  $xml_string = $xml_string."<pEnd>".$milestone['milestone_date']."</pEnd>";
+  $xml_string = $xml_string."<pStart>".date('m/d/Y', strtotime($milestone['milestone_date']))."</pStart>";
+  $xml_string = $xml_string."<pEnd>".date('m/d/Y', strtotime($milestone['milestone_date']))."</pEnd>";
   $xml_string = $xml_string."<pColor>0000ff</pColor><pLink /><pMile>1</pMile>";
   $user = get_assigned_user($milestone['assigned_to_id']);
   $xml_string = $xml_string."<pRes>".$user['first_name']." ".$user['last_name']."</pRes>";
   $xml_string = $xml_string."<pComp/><pGroup>0</pGroup>";
-  if ($group['groups_group_id']) {
-    $xml_string = $xml_string."<pParent>".$group['groups_group_id']."</pParent>";
+  if ($milestone['groups_group_id']) {
+    $xml_string = $xml_string."<pParent>".$milestone['groups_group_id']."</pParent>";
   } else {
     $xml_string = $xml_string."<pParent>0</pParent>";
   }
