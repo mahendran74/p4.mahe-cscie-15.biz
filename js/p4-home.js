@@ -5,24 +5,22 @@ $('#signUp').on('click', function(e) {
   $('#signUpWindow').modal('show');
 });
 
-$("#email").change(function() {
-  $("#message").html("checking...");
-  var email = $("#email").val();
-
-  $.ajax({
-    type : "post",
-    url : "/users/check_email/" + email,
-    success : function(data) {
-      // alert(data);
-      if (data == 1) {
-        $("#message").html("Email available");
-      } else {
-        $("#message").html("Email already taken");
-        $("#email").focus();
-      }
-    }
-  });
-});
+jQuery.validator.addMethod("notUsed", 
+    function(value, element, params) {
+   var response;
+   $.ajax({
+     type : "post",
+     url : "/users/check_email/" + value,
+     async: false,
+     success : function(data) {
+       response = data;
+     }
+   });
+   if (response == "Email is available")
+     return true;
+   else
+     return false;
+ },'Email already used. Please provide another email.');
 
 // Log In submit
 $("#loginForm").validate(
@@ -69,4 +67,25 @@ $("#signUpForm").validate(
         return false;
       }
     });
-
+//Password reset
+$("#passwordResetForm").validate(
+    {
+      showErrors : function(errorMap, errorList) {
+        $.each(this.validElements(), function(index, element) {
+          var $element = $(element);
+          $element.data("title", "").removeClass("has-error")
+              .tooltip("destroy");
+        });
+        $.each(errorList, function(index, error) {
+          var $element = $(error.element);
+          $element.tooltip("destroy").data("title", error.message).addClass(
+              "has-error").tooltip({
+            'placement' : 'bottom'
+          });
+        });
+      },
+      submitHandler : function(form) {
+        form.submit();
+        return false;
+      }
+    });

@@ -80,7 +80,7 @@ class pm_controller extends base_controller {
     $_POST ['actual_end_date'] = $_POST ['end_date'];
     $_POST ['status'] = 'green';
     $_POST ['pm_id'] = $this->roles [2];
-    $this->log->logInfo ( var_export ( $_POST, true ) );
+
     // Insert this user into the database
     $project_id = DB::instance ( DB_NAME )->insert ( "projects", $_POST );
     // Redirect to home page
@@ -102,6 +102,10 @@ class pm_controller extends base_controller {
     echo json_encode (get_milestone_details($milestone_id));
   }
   
+  public function get_all_tasks($user_id) {
+    
+  }
+  
   public function p_add_task() {
     // Check to see if the user id logged in.
     if (! $this->user) {
@@ -115,6 +119,7 @@ class pm_controller extends base_controller {
     $_POST ['start_date'] = date('Y-m-d', strtotime ($_POST['start_date']));
     $_POST ['end_date'] = date('Y-m-d', strtotime ($_POST['end_date']));
     $_POST ['status'] = get_status($_POST ['status']);
+    unset ( $_POST ['per_complete_slide'] );
     if (check_for_empty_string($_POST['depends_on']))
       unset ( $_POST ['depends_on'] );
     // Insert this user into the database
@@ -134,6 +139,7 @@ class pm_controller extends base_controller {
     $_POST ['start_date'] = date('Y-m-d', strtotime ($_POST['start_date']));
     $_POST ['end_date'] = date('Y-m-d', strtotime ($_POST['end_date']));
     $_POST ['status'] = get_status($_POST ['status']);
+    unset ( $_POST ['per_complete_slide'] );
     if (check_for_empty_string($_POST['depends_on']))
       unset ( $_POST ['depends_on'] );
     DB::instance (DB_NAME)->update( "tasks", $_POST, "WHERE task_id = " . $_POST ['task_id'] );
@@ -151,7 +157,6 @@ class pm_controller extends base_controller {
   }
   
   public function p_add_group() {
-    $this->log->logInfo($_POST);
     // Check to see if the user id logged in.
     if (! $this->user) {
       // If not redirect it back to the home page for login.
@@ -225,6 +230,7 @@ class pm_controller extends base_controller {
     $_POST = DB::instance ( DB_NAME )->sanitize ( $_POST );
     $_POST ['modified'] = Time::now (); // Set modified datetime
     $_POST ['milestone_date'] = date('Y-m-d', strtotime ($_POST['milestone_date']));
+    unset ( $_POST ['milestone_per_complete_slide'] );
     DB::instance (DB_NAME)->update( "milestones", $_POST, "WHERE milestone_id = " . $_POST ['milestone_id'] );
     echo "Milestone updated successfully.";
   }
@@ -251,7 +257,6 @@ class pm_controller extends base_controller {
     }
     // Sanitize the data for SQL injection attacks
     $_POST = DB::instance ( DB_NAME )->sanitize ( $_POST );
-    $this->log->logInfo($_POST);
     $data = Array (
     	"modified" => Time::now (),
         "project_name" => $_POST ['project_name'],
@@ -266,101 +271,6 @@ class pm_controller extends base_controller {
     Router::redirect ("/pm/home");
   }
 
-  /**
-   * Show the profile view with any messages
-   *
-   * @param unknown $messages
-   *          message to display
-   */
-  public function profile($messages = array()) {
-    // Check to see if the user id logged in.
-    if (! $this->user) {
-      // If not redirect it back to the home page for login.
-      Router::redirect ( "/" );
-    }
-    // Set the script to open the first blind
-    $client_files_body = Array (
-        "/js/option1.js"  // Script to open second blind
-        );
-    $this->template->content = View::instance ( 'v_users_profile' ); // Set view
-    $this->template->title = "Profile"; // Set title
-                                        
-    // Query to get the user's profile
-    $q = "SELECT * FROM users WHERE user_id = " . $this->user->user_id;
-    $profile = DB::instance ( DB_NAME )->select_row ( $q );
-    
-    $this->template->content->profile = $profile; // Set template data
-                                                  // Set the error or success message to display and the script to display the right blind
-    if (isset ( $messages ['profile_message'] )) {
-      $this->template->content->profile_message = $messages ['profile_message'];
-    } else if (isset ( $messages ['profile_error_string'] )) {
-      $this->template->content->profile_error_string = $messages ['profile_error_string'];
-    } else if (isset ( $messages ['avatar_message'] )) {
-      $this->template->content->avatar_message = $messages ['avatar_message'];
-      $client_files_body = Array (
-          "/js/option2.js"  // Script to open second blind
-            );
-    } else if (isset ( $messages ['avatar_error_message'] )) {
-      $this->template->content->avatar_error_message = $messages ['avatar_error_message'];
-      $client_files_body = Array (
-          "/js/option2.js"  // Script to open second blind
-            );
-    } else if (isset ( $messages ['password_message'] )) {
-      $this->template->content->password_message = $messages ['password_message'];
-      $client_files_body = Array (
-          "/js/option3.js"  // Script to open third blind
-            );
-    } else if (isset ( $messages ['password_error_message'] )) {
-      $this->template->content->password_error_message = $messages ['password_error_message'];
-      $client_files_body = Array (
-          "/js/option3.js"  // Script to open second blind
-            );
-    }
-    // Add script to fade nessage
-    array_push ( $client_files_body, "/js/fadeout.js" );
-    // Load the script
-    $this->template->client_files_body = Utils::load_client_files ( $client_files_body );
-    echo $this->template; // Render view
-  }
-  /**
-   * Process the upload request.
-   * Saves the image to the /upload/avatar folder
-   * Update the user's profile with the avatar
-   */
-  public function p_upload() {
-    // Check to see if the user id logged in.
-    if (! $this->user) {
-      // If not redirect it back to the home page for login.
-      Router::redirect ( "/" );
-    }
-    // Check if the user selected any image
-    if ($_FILES ['avatar'] ['error'] != 0) {
-      // If not, show an error message
-      $messages ['avatar_error_message'] = "Please select a image file and try again.";
-      $this->profile ( $messages );
-      return;
-    }
-    // Upload the file in the /upload/avatar and rename it to <user_id>_avatar.<extension>
-    $file_name = Upload::upload ( $_FILES, "/uploads/avatars/", array (
-        "jpg",
-        "jpeg",
-        "gif",
-        "png" 
-    ), $this->user->user_id . "_avatar" );
-    // Create where clause
-    $where_condition = 'WHERE user_id = ' . $this->user->user_id;
-    // Set array to inser
-    $data = Array (
-        "avatar" => "/uploads/avatars/" . $file_name,
-        "modified" => Time::now () 
-    );
-    // Updates the user info
-    DB::instance ( DB_NAME )->update ( 'users', $data, $where_condition );
-    $messages = array ();
-    // Show success message
-    $messages ['avatar_message'] = "Your avatar has been sucessfully changed.";
-    $this->profile ( $messages ); // Render view
-  }
   /**
    * Process update password request
    */

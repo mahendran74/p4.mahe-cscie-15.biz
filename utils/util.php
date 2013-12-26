@@ -33,16 +33,16 @@ function email_not_used($email, $user_id = NULL) {
   // User id is null, so request from the sign up view
   // Check whether the email is used by any signed up user
   $q = "SELECT *
-				FROM users
-    			WHERE UPPER(email) = UPPER('" . $email . "')";
+		  FROM users
+    	 WHERE UPPER(email) = UPPER('" . $email . "')";
  } else {
   // User id is not null, so request from the update profile view
   // Check whether the email is used by any other signed up user
   // other than the current one
   $q = "SELECT *
-                FROM users
-    		    WHERE UPPER(email) = UPPER('" . $email . "') AND
-    			   		 user_id != " . $user_id;
+          FROM users
+    	 WHERE UPPER(email) = UPPER('" . $email . "') 
+    	   AND user_id != " . $user_id;
  }
  // Execute the query to get all the email.
  // Store the result array in the variable $users
@@ -204,7 +204,7 @@ function get_status ($status_string) {
 
 function get_users_list() {
   $q = "SELECT  A . *, 
-                group_concat(B.role_types_role_type_id) AS roles
+                GROUP_CONCAT(B.role_types_role_type_id) AS roles
           FROM  users AS A
     INNER JOIN  users_roles AS B 
             ON  A.user_id = B.users_user_id
@@ -215,9 +215,12 @@ function get_users_list() {
 }
 
 function get_user($user_id) {
-  $q = "SELECT  A . *
+  $q = "SELECT  A . *, 
+                GROUP_CONCAT(B.role_types_role_type_id) AS roles
           FROM  users AS A
-         WHERE  user_id = " . $user_id;
+    INNER JOIN  users_roles AS B 
+            ON  A.user_id = B.users_user_id
+         WHERE  A.user_id = " . $user_id;
   $user = DB::instance (DB_NAME)->select_row($q);
   return  $user;
 }
@@ -393,11 +396,37 @@ function get_task_XML($task) {
 function get_assigned_user($assigned_to_id) {
   $q = "SELECT A . *
           FROM users A
-    INNER JOIN users_roles B ON A.user_id = B.users_user_id
-    INNER JOIN tasks C ON B.user_role_id = C.assigned_to_id
+    INNER JOIN users_roles B 
+            ON A.user_id = B.users_user_id
+    INNER JOIN tasks C 
+            ON B.user_role_id = C.assigned_to_id
          WHERE C.assigned_to_id = " . $assigned_to_id;
   $user = DB::instance (DB_NAME)->select_row($q);
   return  $user;
+}
+
+function get_tasks($user_id) {
+  $q = "SELECT A.* 
+          FROM tasks AS A
+    INNER JOIN users_roles AS B 
+            ON A.assigned_to_id = B.user_role_id
+    INNER JOIN users AS C 
+            ON B.users_user_id = C.user_id
+         WHERE C.user_id = " . $user_id;
+  $tasks = DB::instance (DB_NAME)->select_rows($q);
+  return  $tasks;
+}
+
+function get_milestones($user_id) {
+  $q = "SELECT A.*
+          FROM milestones AS A
+    INNER JOIN users_roles AS B
+            ON A.assigned_to_id = B.user_role_id
+    INNER JOIN users AS C
+            ON B.users_user_id = C.user_id
+         WHERE C.user_id = " . $user_id;
+  $milestones = DB::instance (DB_NAME)->select_rows($q);
+  return  $milestones;
 }
 
 function url(){

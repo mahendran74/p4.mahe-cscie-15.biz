@@ -1,9 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -88,23 +86,21 @@
     </ol>
     <div class="carousel-inner">
       <div class="item active">
-        <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="First slide">
+        <img data-src="holder.js/900x500/auto/#2c3e50:#5a5a5a/text: " src="#" alt="First slide"/>
         <div class="container">
           <div class="carousel-caption">
-            <h1>Example headline.</h1>
+            <h1>Quick Project Management.</h1>
             <p>
-              Note: If you're viewing this page via a
-              <code>file://</code>
-              URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.
+              Administrator Interface
             </p>
             <p>
-              <a class="btn btn-lg btn-primary" href="#">Sign up today</a>
+              Lets you add and manage users. Provide
             </p>
           </div>
         </div>
       </div>
       <div class="item">
-        <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+        <img data-src="holder.js/900x500/auto/#376E6C:#6a6a6a/text: " src="#" alt="Second slide"/>
         <div class="container">
           <div class="carousel-caption">
             <h1>Another example headline.</h1>
@@ -116,7 +112,7 @@
         </div>
       </div>
       <div class="item">
-        <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+        <img data-src="holder.js/900x500/auto/#6E2C50:#5a5a5a/text: " src="#" alt="Third slide"/>
         <div class="container">
           <div class="carousel-caption">
             <h1>One more for good measure.</h1>
@@ -143,7 +139,7 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+        <img class="img-circle" data-src="holder.js/140x140/#2c3e50:#fff/text:QuickPM[Admin]" src="#" alt="Generic placeholder image"/>
         <h2>Heading</h2>
         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
         <p>
@@ -152,7 +148,7 @@
       </div>
       <!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+        <img class="img-circle" data-src="holder.js/140x140/#376E6C:#fff/text:Project Manager" src="#" alt="Generic placeholder image"/>
         <h2>Heading</h2>
         <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
         <p>
@@ -161,7 +157,7 @@
       </div>
       <!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+        <img class="img-circle" data-src="holder.js/140x140/#6E2C50:#fff/text:QuickPM[TM]" src="#" alt="Generic placeholder image"/>
         <h2>Heading</h2>
         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
         <p>
@@ -213,7 +209,8 @@
                  data-msg-maxlength="Your email cannot be more than 255 characters" 
                  data-rule-email="true" 
                  data-rule-required="true" 
-                 data-rule-maxlength="255" />
+                 data-rule-maxlength="255" 
+                 data-rule-notUsed="true"/>
                 <div id="message"></div>
               </div>
               <div class="form-group">
@@ -273,5 +270,6 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.validate.js"></script>
   <script src="js/p4-home.js"></script>
+  <script src="js/holder.js"></script>
 </body>
 </html>

@@ -7,11 +7,12 @@ $('#search').keyup(function() {
     return !~text.indexOf(val);
   }).hide();
 });
+
 $('.left-button').tooltip({
-  'placement' : 'left'
+  'placement' : 'bottom'
 });
 $('.right-button').tooltip({
-  'placement' : 'right'
+  'placement' : 'bottom'
 });
 $('.admin-icon').tooltip({
   'placement' : 'top'
@@ -26,6 +27,13 @@ $('.tm-icon').tooltip({
 $(function() {
   $('#addNewUser').on('click', function(e) {
     e.preventDefault();
+    $('#addNewUserWindow #user_id').val('');
+    $('#addNewUserWindow #first_name').val('');
+    $('#addNewUserWindow #last_name').val('');
+    $('#addNewUserWindow #email').val('');          
+    $('#addNewUserWindow #confirm_email').val('');
+    $('#addNewUserWindow #admin_access').prop("checked", true);
+    $('#addNewUserModalLabel').text("Add New User");
     $('#alertAddNewUser').hide();
     $('#addNewUserWindow').modal('show');
   });
@@ -97,6 +105,34 @@ $('.reset-password').on(
           });
     });
 
+//Edit user
+$('.edit-user').on(
+    'click',
+    function(e) {
+      e.preventDefault();
+      var user_id = $(this).attr('id').substring(1);
+      $.ajax({
+        type : 'post',
+        url : '/users/get_user/' + user_id,
+        success : function(data) {
+          var user = jQuery.parseJSON(data);
+          $('#addNewUserWindow #user_id').val(user.user_id);
+          $('#addNewUserWindow #first_name').val(user.first_name);
+          $('#addNewUserWindow #last_name').val(user.last_name);
+          $('#addNewUserWindow #email').val(user.email);          
+          $('#addNewUserWindow #confirm_email').val(user.email);
+          if (user.roles.indexOf("1") > 0)
+            $('#addNewUserWindow #admin_access').prop("checked", true);
+          else
+            $('#addNewUserWindow #admin_access').prop("checked", false);
+          $('#addNewUserModalLabel').text("Edit User");
+          $('#alertAddNewUser').hide();
+          $('#addNewUserWindow').modal('show');
+        }
+      });      
+      
+    });
+
 $("#email").change(function() {
   $("#message").html("checking...");
   var email = $("#email").val();
@@ -117,6 +153,24 @@ $("#email").change(function() {
     }
   });
 });
+
+
+jQuery.validator.addMethod("notUsed", 
+   function(value, element, params) {
+  var response;
+  $.ajax({
+    type : "post",
+    url : "/users/check_email/" + value + "/" + $("#user_id").val(),
+    async: false,
+    success : function(data) {
+      response = data;
+    }
+  });
+  if (response == "Email is available")
+    return true;
+  else
+    return false;
+},'Email already used. Please provide another email.');
 
 // New user submit
 $("#addNewUserForm").validate(
@@ -142,9 +196,13 @@ $("#addNewUserForm").validate(
 
       submitHandler : function(form) {
         var formData = $(form).serialize();
+        var submit_url = '/users/p_add_user';
+        if ($('#user_id').val() != "") {
+          submit_url = '/users/p_update_user';
+        }
         $.ajax({
           type : 'post',
-          url : '/users/p_adduser',
+          url : submit_url,
           data : formData,
           success : function(data) {
             console.log(data);

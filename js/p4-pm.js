@@ -12,7 +12,7 @@ $('.left-button').tooltip({
 $('.right-button').tooltip({
   'placement' : 'bottom'
 });
-$('#status').simplecolorpicker({
+$('#project_status').simplecolorpicker({
   picker : true,
   theme : 'glyphicons'
 });
@@ -29,38 +29,31 @@ $('.edit-project-details').on(
         url : '/pm/get_project/' + project_id,
         success : function(data) {
           var project = jQuery.parseJSON(data);
-          $('#editProjectWindow #project_id').val(project.project_id);
-          $('#editProjectWindow #project_name').val(project.project_name);
-          $('#editProjectWindow #project_desc').val(project.project_desc);
-          $('#editProjectWindow #start_date').val(
-              changeDateFormat(project.start_date));
-          $('#editProjectWindow #end_date').val(
-              changeDateFormat(project.end_date));
-          $('#editProjectWindow #actual_start_date').text(
-              changeDateFormat(project.actual_start_date));
-          $('#editProjectWindow #actual_end_date').text(
-              changeDateFormat(project.actual_end_date));
+          $('#editProjectWindow #project_project_id').val(project.project_id);
+          $('#editProjectWindow #project_project_name').val(project.project_name);
+          $('#editProjectWindow #project_project_desc').val(project.project_desc);
+          $('#editProjectWindow #project_start_date').val(changeDateFormat(project.start_date));
+          $('#editProjectWindow #project_end_date').val(changeDateFormat(project.end_date));
+          $('#editProjectWindow #project_actual_start_date').text(changeDateFormat(project.actual_start_date));
+          $('#editProjectWindow #project_actual_end_date').text(changeDateFormat(project.actual_end_date));
           if (project.status == "red") {
-            $('#editProjectWindow #status').simplecolorpicker('selectColor',
-                '#dc2127');
+            $('#editProjectWindow #project_status').simplecolorpicker('selectColor', '#dc2127');
           } else if (project.status == "yellow") {
-            $('#editProjectWindow #status').simplecolorpicker('selectColor',
-                '#ffb878');
+            $('#editProjectWindow #project_status').simplecolorpicker('selectColor', '#ffb878');
           } else {
-            $('#editProjectWindow #status').simplecolorpicker('selectColor',
-                '#7bd148');
+            $('#editProjectWindow #project_status').simplecolorpicker('selectColor', '#7bd148');
           }
           $('#alertEditProject').hide();
           $('#editProjectWindow').modal('show');
         }
       });
     });
-$('#editProjectWindow #start_date').datepicker();
-$('#editProjectWindow #end_date').datepicker();
+$('#editProjectWindow #project_start_date').datepicker();
+$('#editProjectWindow #project_end_date').datepicker();
 $('#start_date').datepicker();
 $('#end_date').datepicker();
 
-var nowTemp = new Date();
+
 function changeDateFormat(date_string) {
   var dateVar = new Date(date_string);
   var dayVar = dateVar.getDate();
@@ -69,6 +62,8 @@ function changeDateFormat(date_string) {
   var yearVar = dateVar.getFullYear();
   return (monthVar + "/" + dayVar + "/" + yearVar);
 }
+
+var nowTemp = new Date();
 var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(),
     nowTemp.getDate(), 0, 0, 0, 0);
 

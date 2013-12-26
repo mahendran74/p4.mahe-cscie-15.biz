@@ -36,8 +36,9 @@ function editTaskItem(task_id) {
       }
       $('#addNewTaskWindow #task_color').simplecolorpicker('selectColor',
           task.color);
-      $('#addNewTaskWindow #task_per_complete').slider('setValue',
+      $('#addNewTaskWindow #per_complete_slide').slider('setValue',
           task.per_complete);
+      $('#addNewTaskWindow #task_per_complete').val(task.per_complete);
       $('#addNewTaskWindow #task_assigned_to_id').select2('val',
           task.assigned_to_id);
       $('#addNewTaskWindow #task_depends_on').select2('val', task.depends_on);
@@ -51,6 +52,11 @@ function editTaskItem(task_id) {
     }
   });
 }
+
+$("#addNewTaskWindow #per_complete_slide").on('slide', function(slideEvt) {
+  $("#task_per_complete").val(slideEvt.value);
+});
+
 /**
  * Process the Edit group button click
  * 
@@ -121,7 +127,8 @@ $('#addNewTask').on('click', function(e) {
   $('#addNewTaskWindow #task_end_date').val('');
   $('#addNewTaskWindow #task_status').simplecolorpicker('selectColor', '');
   $('#addNewTaskWindow #task_color').simplecolorpicker('selectColor', '');
-  $('#addNewTaskWindow #task_per_complete').slider('setValue', '');
+  $('#addNewTaskWindow #per_complete_slide').slider('setValue', '');
+  $('#addNewTaskWindow #task_per_complete').val('');
   $('#addNewTaskWindow #task_assigned_to_id').select2('val', '');
   $('#addNewTaskWindow #task_depends_on').select2('val', '');
   $('#addNewTaskWindow #task_groups_group_id').select2('val', '');
@@ -166,12 +173,12 @@ function format(item) {
 };
 
 // Sliders
-$('#task_per_complete').slider({
+$('#per_complete_slide').slider({
   formater : function(value) {
     return 'Percentage complete : ' + value + ' %';
   }
 });
-$('#milestone_per_complete').slider({
+$('#milestone_per_complete_slide').slider({
   formater : function(value) {
     return 'Percentage complete : ' + value + ' %';
   }
@@ -223,8 +230,12 @@ $("#milestone_assigned_to_id").select2({
 
 // Date picker
 $('#task_start_date').datepicker();
+
 $('#task_end_date').datepicker();
-$('#group_start_date').datepicker();
+
+$('#group_start_date').datepicker({
+  autoclose : true
+});
 $('#group_end_date').datepicker();
 $('#milestone_milestone_date').datepicker();
 
@@ -277,6 +288,53 @@ $("#addNewUserForm").validate({
   }
 });
 
+var nowTemp = new Date();
+var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(),
+    nowTemp.getDate(), 0, 0, 0, 0);
+
+var taskStartDate = $('#task_start_date').datepicker({
+  onRender : function(date) {
+    return date.valueOf() < now.valueOf() ? 'disabled' : '';
+  }
+}).on('changeDate', function(ev) {
+  if (ev.date.valueOf() > taskEndDate.date.valueOf()) {
+    var newDate = new Date(ev.date);
+    newDate.setDate(newDate.getDate() + 1);
+    taskEndDate.setValue(newDate);
+  }
+  taskStartDate.hide();
+  $('#task_end_date')[0].focus();
+}).data('datepicker');
+
+var taskEndDate = $('#task_end_date').datepicker({
+  onRender : function(date) {
+    return date.valueOf() <= taskStartDate.date.valueOf() ? 'disabled' : '';
+  }
+}).on(
+    'changeDate',
+    function(ev) {
+      if (ev.date.valueOf() < taskStartDate.date.valueOf()) {
+        $('#alertNewProject').show().find('strong').text(
+            'The end date must fall after the start date.');
+        $('#end_date')[0].focus();
+        $('#alertAddNewTask').delay(2000).fadeOut("slow");
+      } else {
+        $('#alertAddNewTask').hide();
+        vEndDate = new Date(ev.date);
+        taskEndDate.hide();
+      }
+    }).data('datepicker');
+
+jQuery.validator.addMethod("greaterThan", function(value, element, params) {
+
+  if (!/Invalid|NaN/.test(new Date(value))) {
+    return new Date(value) > new Date($(params).val());
+  }
+
+  return isNaN(value) && isNaN($(params).val())
+      || (Number(value) > Number($(params).val()));
+}, 'Must be greater than {0}.');
+
 // New task submit
 $("#addNewTaskForm").validate({
   showErrors : function(errorMap, errorList) {
@@ -293,12 +351,13 @@ $("#addNewTaskForm").validate({
       var $element = $(error.element);
       $element.removeClass("has-success").addClass("has-error");
       $element.tooltip("destroy").data("title", error.message).tooltip({
-        'placement' : 'bottom'
+        'placement' : 'top'
       });
     });
   },
 
   submitHandler : function(form) {
+
     var formData = $(form).serialize();
     var project_id = $('#project_id').val();
     var submit_url = '/pm/p_add_task';
@@ -320,6 +379,39 @@ $("#addNewTaskForm").validate({
   }
 });
 
+var groupStartDate = $('#group_start_date').datepicker({
+  onRender : function(date) {
+    return date.valueOf() < now.valueOf() ? 'disabled' : '';
+  }
+}).on('changeDate', function(ev) {
+  if (ev.date.valueOf() > taskEndDate.date.valueOf()) {
+    var newDate = new Date(ev.date);
+    newDate.setDate(newDate.getDate() + 1);
+    taskEndDate.setValue(newDate);
+  }
+  groupStartDate.hide();
+  $('#group_end_date')[0].focus();
+}).data('datepicker');
+
+var groupEndDate = $('#group_end_date').datepicker({
+  onRender : function(date) {
+    return date.valueOf() <= groupStartDate.date.valueOf() ? 'disabled' : '';
+  }
+}).on(
+    'changeDate',
+    function(ev) {
+      if (ev.date.valueOf() < groupStartDate.date.valueOf()) {
+        $('#alertNewProject').show().find('strong').text(
+            'The end date must fall after the start date.');
+        $('#end_date')[0].focus();
+        $('#alertAddNewTask').delay(2000).fadeOut("slow");
+      } else {
+        $('#alertAddNewTask').hide();
+        vEndDate = new Date(ev.date);
+        groupEndDate.hide();
+      }
+    }).data('datepicker');
+
 // New group submit
 $("#addNewGroupForm").validate({
   showErrors : function(errorMap, errorList) {
@@ -336,7 +428,7 @@ $("#addNewGroupForm").validate({
       var $element = $(error.element);
       $element.removeClass("has-success").addClass("has-error");
       $element.tooltip("destroy").data("title", error.message).tooltip({
-        'placement' : 'bottom'
+        'placement' : 'top'
       });
     });
   },
@@ -379,7 +471,7 @@ $("#addNewMilestoneForm").validate({
       var $element = $(error.element);
       $element.removeClass("has-success").addClass("has-error");
       $element.tooltip("destroy").data("title", error.message).tooltip({
-        'placement' : 'bottom'
+        'placement' : 'top'
       });
     });
   },
@@ -430,7 +522,7 @@ $('#taskDelButton').on(
       });
     });
 
-//Delete group
+// Delete group
 $('#groupDelButton').on(
     'click',
     function(e) {
@@ -454,26 +546,26 @@ $('#groupDelButton').on(
       });
     });
 
-//Delete milestone
+// Delete milestone
 $('#milestoneDelButton').on(
     'click',
     function(e) {
       e.preventDefault();
       var milestone_id = $('#milestone_id').val();
       var project_id = $('#project_id').val();
-      bootbox.confirm("Are you sure you want to delete this milestone ?", function(
-          result) {
-        if (result) {
-          $.ajax({
-            type : 'post',
-            url : '/pm/delete_milestone/' + milestone_id,
-            success : function(data) {
-              console.log(data);
-              bootbox.alert(data, function(result) {
-                window.location = "/pm/project_details/" + project_id;
+      bootbox.confirm("Are you sure you want to delete this milestone ?",
+          function(result) {
+            if (result) {
+              $.ajax({
+                type : 'post',
+                url : '/pm/delete_milestone/' + milestone_id,
+                success : function(data) {
+                  console.log(data);
+                  bootbox.alert(data, function(result) {
+                    window.location = "/pm/project_details/" + project_id;
+                  });
+                }
               });
             }
           });
-        }
-      });
     });

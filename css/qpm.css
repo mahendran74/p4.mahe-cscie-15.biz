@@ -3,6 +3,10 @@ body {
   padding-bottom: 30px;
 }
 
+#calendar {
+  padding-top: 20px;
+}
+
 .qpm-panel {
 	height : 275px;
 	overflow: auto;

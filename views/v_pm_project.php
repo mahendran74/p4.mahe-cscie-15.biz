@@ -3,11 +3,10 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="shortcut icon" href="../img/favicon.png">
+<link rel="shortcut icon" href="../../img/favicon.ico">
 
 <title>Quick CM : PM Home</title>
 
@@ -43,11 +42,11 @@
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">Quick PM <small><small>Project Manager</small></small></a>
+        <a class="navbar-brand" href="/pm/home">Quick PM <small><small>Project Manager</small></small></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/">Home</a></li>
+          <li class="active"><a href="/pm/home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -62,7 +61,6 @@
               <li class="tm-interface"><a href="/tm/home"><span class="glyphicon glyphicon-user"></span> Team Member</a></li>
               <?php endif;?>
               <li class="divider"></li>
-              <li><a href="#"><span class="glyphicon glyphicon-edit"></span> Edit Profile </a></li>
               <li><a href="/users/logout"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
             </ul></li>
         </ul>
@@ -82,16 +80,16 @@
               </div>
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="pull-right">
-                  <a id="addNewGroup" type="button" class="btn btn-xs btn-success right-button" data-toggle="tooltip" title="New Group">
+                  <a id="addNewGroup" class="btn btn-xs btn-success right-button" data-toggle="tooltip" title="New Group">
                     <span class="glyphicon glyphicon-bookmark"></span>
                   </a>
-                  <a id="addNewTask" type="button" class="btn btn-xs btn-success right-button" data-toggle="tooltip" title="New Task">
+                  <a id="addNewTask" class="btn btn-xs btn-success right-button" data-toggle="tooltip" title="New Task">
                     <span class="glyphicon glyphicon-minus"></span>
                   </a>
-                  <a id="addNewMilestone" type="button" class="btn btn-xs btn-success right-button" data-toggle="tooltip" title="New Milestone">
+                  <a id="addNewMilestone" class="btn btn-xs btn-success right-button" data-toggle="tooltip" title="New Milestone">
                     <span class="glyphicon glyphicon-map-marker"></span>
                   </a>
-                  <a id="addNewUser" type="button" class="btn btn-xs btn-success right-button" data-toggle="tooltip" title="New User">
+                  <a id="addNewUser" class="btn btn-xs btn-success right-button" data-toggle="tooltip" title="New User">
                     <span class="glyphicon glyphicon-user"></span>
                   </a>
                 </div>
@@ -179,7 +177,7 @@
   <div class="modal fade" id="addNewTaskWindow" tabindex="-1" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog">
       <div class="modal-content">
-        <form method='POST' action='' id="addNewTaskForm">
+        <form method='POST' id="addNewTaskForm">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h4 class="modal-title" id="addNewTaskModalLabel">Add New Task</h4>
@@ -213,8 +211,10 @@
                   <input type="text" class="form-control" id="task_end_date" name="end_date"  
                     data-msg-date="Please enter a valid date as end date." 
                     data-msg-required="Please enter a valid date as end date." 
+                    data-msg-greaterThan="The end date must fall after the start date." 
                     data-rule-date="true" 
-                    data-rule-required="true" />
+                    data-rule-required="true"
+                    data-rule-greaterThan="#task_start_date" />
                 </div>
               </div>
             </div>
@@ -268,11 +268,12 @@
             <div class="form-group">
               <label for="per_complete">Percentage Complete</label>
               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <input type="text" value="0" id="task_per_complete" name="per_complete" 
+              <input type="text" value="0" id="per_complete_slide" name="per_complete_slide" 
               data-slider-min="0" 
               data-slider-max="100" 
               data-slider-value="0" 
               data-slider-step="1"/>
+              <input type="hidden" id="task_per_complete" name="per_complete" />
               </div>
             </div>
           </div>
@@ -300,7 +301,7 @@
   <div class="modal fade" id="addNewGroupWindow" tabindex="-1" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog">
       <div class="modal-content">
-        <form method='POST' action='' id="addNewGroupForm">
+        <form method='POST' id="addNewGroupForm">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h4 class="modal-title" id="addNewGroupModalLabel">Add New Group</h4>
@@ -334,8 +335,10 @@
                   <input type="text" class="form-control" id="group_end_date" name="end_date" value="" 
                     data-msg-date="Please enter a valid date as end date." 
                     data-msg-required="Please enter a valid date as end date." 
+                    data-msg-greaterThan="The end date must fall after the start date." 
                     data-rule-date="true" 
-                    data-rule-required="true" />
+                    data-rule-required="true"
+                    data-rule-greaterThan="#group_start_date" />
                 </div>
               </div>
             </div>
@@ -369,7 +372,7 @@
   <div class="modal fade" id="addNewMilestoneWindow" tabindex="-1" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog">
       <div class="modal-content">
-        <form method='POST' action='' id="addNewMilestoneForm">
+        <form method='POST' id="addNewMilestoneForm">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h4 class="modal-title" id="addNewMilestoneModalLabel">Add New Milestone</h4>
@@ -433,7 +436,7 @@
   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
   <script src="../../js/bootstrap.min.js"></script>
   <script src="../../js/bootbox.min.js"></script>
-  <script src="../../js/bootstrap-datepicker.js"></script>
+  <script src="../../js/bootstrap-datepicker.js"></script> 
   <script src="../../js/bootstrap-slider.js"></script>
   <script src="../../js/jquery.validate.js"></script>
   <script src="../../js/jquery.simplecolorpicker.js"></script>

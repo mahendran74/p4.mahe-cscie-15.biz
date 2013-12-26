@@ -31,7 +31,7 @@ A email designated to receive messages from the server. Examples:
 	define('SYSTEM_EMAIL', 'webmaster@mahe-cscie-15.biz'); 
 
 # Default DB name for this app
-	define('DB_NAME', 'p4.mahe-cscie-15.biz'); 
+	define('DB_NAME', 'mahecsci_p4_mahe_cscie_15_biz'); 
 
 # Timezone
 	define('TIMEZONE', 'America/New_York');

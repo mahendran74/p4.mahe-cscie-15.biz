@@ -128,22 +128,27 @@ class users_controller extends base_controller {
     if (empty ( $user_id )) {
       // User id is null, so request from the sign up view
       // Check whether the email is used by any signed up user
-      $q = "SELECT *
-				FROM users
-    			WHERE UPPER(email) = UPPER('" . $email . "')";
+      $q = "SELECT COUNT(*) AS count
+		      FROM users
+    		 WHERE UPPER(email) = UPPER('" . $email . "')";
     } else {
       // User id is not null, so request from the update profile view
       // Check whether the email is used by any other signed up user
       // other than the current one
-      $q = "SELECT *
-                FROM users
-    		    WHERE UPPER(email) = UPPER('" . $email . "') AND
-    			   		 user_id != " . $user_id;
+      $q = "SELECT COUNT(*) AS count
+              FROM users
+    		 WHERE UPPER(email) = UPPER('" . $email . "')
+               AND user_id != " . $user_id;
     }
+    $this->log->logInfo($q);
     // Execute the query to get all the email.
     // Store the result array in the variable $users
-    $users = DB::instance ( DB_NAME )->select_rows ( $q );
-    echo empty ( $users );
+    $users = DB::instance (DB_NAME)->select_row($q);
+    $this->log->logInfo($users['count']);
+    if ($users['count'] == 0)
+      echo "Email is available";
+    else
+      echo "Email is in use";
   }
   
   /**
@@ -318,8 +323,7 @@ class users_controller extends base_controller {
     echo "Account has been activated.";
   }
   
-  public function p_adduser() {
-    $this->log->logInfo($_POST);
+  public function p_add_user() {
     // Sanitize data for SQL injection attacks
     $_POST = DB::instance ( DB_NAME )->sanitize ($_POST);
     $new_token = sha1(TOKEN_SALT.$_POST['email'].Utils::generate_random_string());
@@ -371,7 +375,59 @@ class users_controller extends base_controller {
             url() . "/users/reset_password/" . $new_token ,
             $this->log);
     
-    echo "<strong>Account Created</strong><br\>The password reset url has been emailed to " . $_POST ['email'];
+    echo "<strong>Account Created</strong>. The password reset URL has been emailed to " . $_POST ['email'];
+  }
+  
+  public function p_update_user(){
+    // Check to see if the user id logged in.
+    if (! $this->user) {
+      // If not redirect it back to the home page for login.
+      Router::redirect ( "/" );
+    }
+    // Sanitize data for SQL injection attacks
+    $_POST = DB::instance ( DB_NAME )->sanitize ( $_POST );
+    // Create an encrypted token via their email address and a random string
+    $token = sha1 ( TOKEN_SALT . $_POST ['email'] . Utils::generate_random_string () );
+    $user_id = $_POST ['user_id'];
+    $data = Array (
+        "modified" => Time::now (),
+        "first_name" => $_POST['first_name'],
+        "last_name" => $_POST['last_name'],
+        "email" => $_POST['email'],
+        "token" => $token
+    );
+
+    DB::instance (DB_NAME)->update( "users", $data, "WHERE user_id = " . $user_id);
+    
+    if (array_key_exists ('admin_access', $_POST)) {
+      // Add user as an admin
+      $role_data = Array (
+          "created" => Time::now (),
+          "modified" => Time::now (),
+          "users_user_id" => $user_id,
+          "role_types_role_type_id" => 1
+      );
+      $user_role_id = DB::instance (DB_NAME)->insert ("users_roles", $role_data);
+    } else {
+      DB::instance(DB_NAME)->delete('users_roles', "WHERE users_user_id = ". $user_id . " AND role_types_role_type_id = 1");
+    }
+    if (array_key_exists ('tm_access', $_POST)) {
+      // Add user as a TM
+      $role_data = Array (
+          "created" => Time::now (),
+          "modified" => Time::now (),
+          "users_user_id" => $user_id,
+          "role_types_role_type_id" => 3
+      );
+      $user_role_id = DB::instance (DB_NAME)->insert ("users_roles", $role_data);
+    } else {
+      DB::instance(DB_NAME)->delete('users_roles', "WHERE users_user_id = ". $user_id . " AND role_types_role_type_id = 3");
+    }
+    echo "Task updated successfully.";
+  }
+  
+  public function get_user($user_id) {
+    echo json_encode(get_user($user_id));
   }
   
   /**
@@ -380,10 +436,11 @@ class users_controller extends base_controller {
    * @param string $message
    *          Error message to be displayed
    */
-  public function login($message = "") {
+  public function login($email, $message = "") {
     $this->template->content = View::instance ( 'v_user_login' ); // Set view
     $this->template->title = "QPM : Login failed"; // Set title
     $this->template->content->login_error_message = $message; // Set login error message
+    $this->template->content->user_email = $email;
     echo $this->template; // Render view
   }
   /**
@@ -392,17 +449,6 @@ class users_controller extends base_controller {
   public function p_login() {
     // Sanitize the data for SQL injection attacks
     $_POST = DB::instance ( DB_NAME )->sanitize ( $_POST );;
-    $messages = array ();
-    // Checks for empty email
-    if (empty ( $_POST ['login_email'] )) {
-      $this->login ( "Please enter your email address." ); // Render the login view with error message
-      return;
-    }
-    // Checks for empty password
-    if (empty ( $_POST ['login_password'] )) {
-      $this->login ( "Please enter your password." ); // Render the login view with error message
-      return;
-    }
     
     // Check the database for a token with the user's email and password
     $token = check_login ( $_POST ['login_email'], $_POST ['login_password'] );
@@ -410,10 +456,10 @@ class users_controller extends base_controller {
     // Check if the token is present or not
     if (! $token) {
       // Token not found.
-      $this->login ( "<strong>Invalid username or password.</strong><br> Please try again" ); // Render the login view with error message
+      $this->login ( $_POST ['login_email'], "<strong>Invalid username or password.</strong><br> Please try again" ); // Render the login view with error message
     } else if ($token['status'] == "Inactive") {
       // Token not found.
-      $this->login ( "<strong>Your account has been deactivated.</strong><br> Please contact the admin." ); // Render the login view with error message
+      $this->login ( $_POST ['login_email'], "<strong>Your account has been deactivated.</strong><br> Please contact the admin." ); // Render the login view with error message
     } else {
       // Update last login
       DB::instance ( DB_NAME )->update ( "users", Array (
@@ -495,45 +541,7 @@ class users_controller extends base_controller {
     $this->template->client_files_body = Utils::load_client_files ( $client_files_body );
     echo $this->template; // Render view
   }
-  /**
-   * Process the upload request.
-   * Saves the image to the /upload/avatar folder
-   * Update the user's profile with the avatar
-   */
-  public function p_upload() {
-    // Check to see if the user id logged in.
-    if (! $this->user) {
-      // If not redirect it back to the home page for login.
-      Router::redirect ( "/" );
-    }
-    // Check if the user selected any image
-    if ($_FILES ['avatar'] ['error'] != 0) {
-      // If not, show an error message
-      $messages ['avatar_error_message'] = "Please select a image file and try again.";
-      $this->profile ( $messages );
-      return;
-    }
-    // Upload the file in the /upload/avatar and rename it to <user_id>_avatar.<extension>
-    $file_name = Upload::upload ( $_FILES, "/uploads/avatars/", array (
-        "jpg",
-        "jpeg",
-        "gif",
-        "png" 
-    ), $this->user->user_id . "_avatar" );
-    // Create where clause
-    $where_condition = 'WHERE user_id = ' . $this->user->user_id;
-    // Set array to inser
-    $data = Array (
-        "avatar" => "/uploads/avatars/" . $file_name,
-        "modified" => Time::now () 
-    );
-    // Updates the user info
-    DB::instance ( DB_NAME )->update ( 'users', $data, $where_condition );
-    $messages = array ();
-    // Show success message
-    $messages ['avatar_message'] = "Your avatar has been sucessfully changed.";
-    $this->profile ( $messages ); // Render view
-  }
+
   /**
    * Process update password request
    */

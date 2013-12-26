@@ -60,7 +60,7 @@
             <?php if(isset($login_error_message)): ?>
             <div class="alert alert-danger"><?=$login_error_message?></div>
             <?php endif; ?>
-            <form method='POST' class="form-horizontal" id="loginForm" action="/users/p_reset_password">
+            <form method='POST' class="form-horizontal" id="passwordResetForm" action="/users/p_reset_password">
               <div class="form-group">
                 <label for="login_email" class="col-sm-4 control-label">Email</label>
                 <div class="col-sm-8">
@@ -114,7 +114,7 @@
   <div class="modal fade" id="signUpWindow" tabindex="-1" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog">
       <div class="modal-content">
-        <form method='POST' action='/users/p_signup' id="signUpForm">
+        <form method='POST' action='' id="signUpForm">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h4 class="modal-title" id="signUpModalLabel">Sign Up</h4>
@@ -148,7 +148,8 @@
               data-msg-maxlength="Your email cannot be more than 255 characters" 
               data-rule-email="true" 
               data-rule-required="true" 
-              data-rule-maxlength="255" />
+              data-rule-maxlength="255"
+              data-rule-notUsed="true" />
               <div id="message"></div>
             </div>
             <div class="form-group">
@@ -189,8 +190,8 @@
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
-  <script src="../js/jquery.validate.js"></script>
-  <script src="../js/home-p4.js"></script>
+  <script src="../../js/bootstrap.min.js"></script>
+  <script src="../../js/jquery.validate.js"></script>
+  <script src="../../js/p4-home.js"></script>
 </body>
 </html>

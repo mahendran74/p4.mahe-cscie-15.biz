@@ -3,13 +3,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="shortcut icon" href="../img/favicon.png">
+<link rel="shortcut icon" href="../img/favicon.ico">
 
-<title>Quick CM : PM Home</title>
+<title>Quick PM : PM Home</title>
 
 <!-- Bootstrap core CSS -->
 <link href="../css/bootstrap.css" rel="stylesheet">
@@ -39,11 +38,11 @@
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">Quick PM <small><small>Project Manager</small></small></a>
+        <a class="navbar-brand" href="/pm/home">Quick PM <small><small>Project Manager</small></small></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/">Home</a></li>
+          <li class="active"><a href="/pm/home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -58,7 +57,6 @@
               <li class="tm-interface"><a href="/tm/home"><span class="glyphicon glyphicon-user"></span> Team Member</a></li>
               <?php endif;?>
               <li class="divider"></li>
-              <li><a href="#"><span class="glyphicon glyphicon-edit"></span> Edit Profile </a></li>
               <li><a href="/users/logout"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
             </ul></li>
         </ul>
@@ -68,14 +66,11 @@
   </div>
 
   <div class="container">
-
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <div class="panel panel-default qpm-panel">
           <div class="panel-heading">
             <div class="row">
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h4 class="panel-title">Projects <span class="badge"><?=count($projects)?></span></h4>
+                <h4 class="panel-title">Projects</h4>
               </div>
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="pull-right">
@@ -111,7 +106,7 @@
                   <td><span class="label label-danger">Red</span></td>
                   <?php endif;?>
                   <td>
-                    <a href="#" id="<?=$project['project_id']?>" type="button" class="btn btn-xs btn-primary left-button edit-project-details" data-toggle="tooltip" title="Edit Project Details">
+                    <a href="#" id="<?=$project['project_id']?>" class="btn btn-xs btn-primary left-button edit-project-details" data-toggle="tooltip" title="Edit Project Details">
                       <span class="glyphicon glyphicon-edit"></span>
                     </a>
                     <a href="/pm/project_details/<?=$project['project_id']?>"  class="btn btn-xs btn-primary left-button" data-toggle="tooltip" title="View Gantt Chart">
@@ -124,105 +119,6 @@
             </table>
           </div>
         </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <div class="panel panel-default qpm-panel">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              Tasks <span class="badge">5</span>
-            </h4>
-          </div>
-          <div class="panel-body" id="panel-looking-info">
-            <table class="table table-hover table-condensed" id="userList">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Task Desc</th>
-                  <th>Due Date</th>
-                  <th>% Complete</th>
-                  <th>Actions</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>13.5 Release</td>
-                  <td>10/23/2014</td>
-                  <td>30 %</td>
-                  <td>
-                    <button type="button" class="btn btn-xs btn-primary left-button" data-toggle="tooltip" title="Edit Task Details">
-                      <span class="glyphicon glyphicon-edit"></span>
-                    </button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>14.1 Release</td>
-                  <td>10/23/2014</td>
-                  <td>30 %</td>
-                  <td>
-                    <button type="button" class="btn btn-xs btn-primary left-button" data-toggle="tooltip" title="Edit Task Details">
-                      <span class="glyphicon glyphicon-edit"></span>
-                    </button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>14.2 Release</td>
-                  <td>10/23/2014</td>
-                  <td>30 %</td>
-                  <td>
-                    <button type="button" class="btn btn-xs btn-primary left-button" data-toggle="tooltip" title="Edit Task Details">
-                      <span class="glyphicon glyphicon-edit"></span>
-                    </button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>14.2 Release</td>
-                  <td>10/23/2014</td>
-                  <td>30 %</td>
-                  <td>
-                    <button type="button" class="btn btn-xs btn-primary left-button" data-toggle="tooltip" title="Edit Task Details">
-                      <span class="glyphicon glyphicon-edit"></span>
-                    </button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>5</td>
-                  <td>14.2 Release</td>
-                  <td>10/23/2014</td>
-                  <td>30 %</td>
-                  <td>
-                    <button type="button" class="btn btn-xs btn-primary left-button" data-toggle="tooltip" title="Edit Task Details">
-                      <span class="glyphicon glyphicon-edit"></span>
-                    </button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">Alerts</h4>
-          </div>
-          <div class="panel-body in" id="panel-looking-info">Panel body 1</div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">Discussions</h4>
-          </div>
-          <div class="panel-body in" id="panel-looking-info">Panel body 2</div>
-        </div>
-      </div>
-    </div>
 
   </div>
   <!-- /container -->
@@ -281,7 +177,7 @@
               </div>
             <div class="modal-footer">
               <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-success btn-primary" id="saveButton">Save</button>
+              <button type="submit" class="btn btn-success btn-primary" id="addProjectSaveButton">Save</button>
             </div>
           </form>
         </div>
@@ -297,10 +193,10 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <form method='POST' action='/pm/p_updateproject' id="editProjectForm">
-            <input type="hidden" id="project_id" name="project_id"/>
+            <input type="hidden" id="project_project_id" name="project_id"/>
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title" id="newProjectModalLabel">Edit Project Details</h4>
+              <h4 class="modal-title" id="editProjectModalLabel">Edit Project Details</h4>
             </div>
             <div class="modal-body">
               <div class="alert alert-danger" id="alertEditProject">
@@ -308,7 +204,7 @@
               </div>
               <div class="form-group">
                 <label for="project_name">Project Name</label>
-                <input type="text" class="form-control" id="project_name" name="project_name" placeholder="Name of the project" value="" autofocus
+                <input type="text" class="form-control" id="project_project_name" name="project_name" placeholder="Name of the project" value="" autofocus
                  data-msg-required="Please enter a project name." 
                  data-msg-maxlength="Your project name cannot be more than 255 characters." 
                  data-rule-required="true" 
@@ -316,21 +212,21 @@
               </div>
               <div class="form-group">
                 <label for="project_desc">Project Description</label>
-                <input type="text" class="form-control" id="project_desc" name="project_desc" placeholder="Short description" value="" 
+                <input type="text" class="form-control" id="project_project_desc" name="project_desc" placeholder="Short description" value="" 
                  data-msg-maxlength="Your last name cannot be more than 255 characters." 
                  data-rule-maxlength="255" />
               </div>
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                   <div class="form-group">
-                    <label for="actual_start_date">Actual Start Date</label>
-                    <p id="actual_start_date" class="form-control-static">12/03/2012</p>
+                    <label>Actual Start Date</label>
+                    <p id="project_actual_start_date" class="form-control-static">12/03/2012</p>
                   </div>
                  </div>
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                   <div class="form-group">
-                    <label for="actual_end_date">Actual End Date</label>
-                    <p id="actual_end_date" class="form-control-static">12/03/2012</p>
+                    <label>Actual End Date</label>
+                    <p id="project_actual_end_date" class="form-control-static">12/03/2012</p>
                   </div>
                  </div>
                 </div>
@@ -338,7 +234,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                   <div class="form-group">
                     <label for="start_date">Start Date</label>
-                    <input type="text" class="form-control" id="start_date" name="start_date" value=""  
+                    <input type="text" class="form-control" id="project_start_date" name="start_date" value=""  
                      data-msg-date="Please enter a valid date as start date." 
                      data-msg-required="Please enter a valid date as start date." 
                      data-rule-date="true" 
@@ -348,7 +244,7 @@
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                   <div class="form-group">
                     <label for="end_date">End Date</label>
-                    <input type="text" class="form-control" id="end_date" name="end_date" value=""
+                    <input type="text" class="form-control" id="project_end_date" name="end_date" value=""
                      data-msg-date="Please enter a valid date as end date." 
                      data-msg-required="Please enter a valid date as end date." 
                      data-rule-date="true" 
@@ -357,8 +253,8 @@
                  </div>
                 </div>
                 <div class="form-group">
-                 <label for="status">Status</label>
-                 <select name="status" id="status">
+                 <label for="project_status">Status</label>
+                 <select name="status" id="project_status">
                   <option value="#7bd148">Green</option>
                   <option value="#ffb878">Orange</option>
                   <option value="#dc2127">Red</option>
@@ -367,7 +263,7 @@
               </div>
             <div class="modal-footer">
               <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-success btn-primary" id="saveButton">Save</button>
+              <button type="submit" class="btn btn-success btn-primary" id="editProjectSaveButton">Save</button>
             </div>
           </form>
         </div>

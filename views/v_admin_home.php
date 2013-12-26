@@ -3,13 +3,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="shortcut icon" href="img/favicon.png">
+<link rel="shortcut icon" href="../img/favicon.ico">
 
-<title>Quick CM : Admin Home</title>
+<title>Quick PM : Admin Home</title>
 
 <!-- Bootstrap core CSS -->
 <link href="../css/bootstrap.css" rel="stylesheet">
@@ -30,17 +29,17 @@
 <body>
 
   <!-- Fixed navbar -->
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">Quick PM <small><small>Administrator</small></small></a>
+        <a class="navbar-brand" href="/admin/home">Quick PM <small><small>Administrator</small></small></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/">Home</a></li>
+          <li class="active"><a href="/admin/home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -48,14 +47,13 @@
           <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <?=$user->first_name?>  <?=$user->last_name?> <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li class="dropdown-header">Switch Role To ...</li>
-                <?php if(array_key_exists( 2, $roles)): ?>
-                <li class="pm-interface"><a href="/pm/home"><span class="glyphicon glyphicon-user"></span> Project Manager</a></li>
-                <?php endif;?>
-                <?php if(array_key_exists( 3, $roles)): ?>
-                <li class="tm-interface"><a href="/tm/home"><span class="glyphicon glyphicon-user"></span> Team Member</a></li>
-                <?php endif;?>
+              <?php if(array_key_exists( 2, $roles)): ?>
+              <li class="admin-interface"><a href="/admin/home"><span class="glyphicon glyphicon-user"></span> Project Manager </a></li>
+              <?php endif;?>
+              <?php if(array_key_exists( 3, $roles)): ?>
+              <li class="tm-interface"><a href="/tm/home"><span class="glyphicon glyphicon-user"></span> Team Member</a></li>
+              <?php endif;?>
               <li class="divider"></li>
-              <li><a href="#"><span class="glyphicon glyphicon-edit"></span> Edit Profile </a></li>
               <li><a href="/users/logout"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
             </ul></li>
         </ul>
@@ -65,24 +63,24 @@
   </div>
 
   <div class="container">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <h4 class="panel-title">Users <span class="badge"><?=count($users)?></span></h4>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="pull-right">
-              <a href="#" id="addNewUser" class="btn btn-xs btn-success" data-toggle="tooltip" title="Add New User"> 
-                <span class="glyphicon glyphicon-tasks"></span>
-              </a>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <h4 class="panel-title">Users <span class="badge"><?=count($users)?></span></h4>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="pull-right">
+                  <a href="#" id="addNewUser" class="btn btn-xs btn-success" data-toggle="tooltip" title="Add New User"> 
+                    <span class="glyphicon glyphicon-user"></span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="panel-body">
-        <form role="form">
-          <label class="sr-only" for="search">Search</label> <input type="email" class="form-control" id="search" placeholder="Start typing to search...">
+          <div class="panel-body">
+        <form>
+          <label class="sr-only" for="search">Search</label> <input type="text" class="form-control" id="search" placeholder="Start typing to search...">
         </form>
         <table class="table table-hover" id="userList">
           <thead>
@@ -130,21 +128,23 @@
                 <a href="#" id="_<?=$user['user_id']?>" type="button" class="btn btn-xs btn-primary right-button reset-password" data-toggle="tooltip" title="Reset Password">
                   <span class="glyphicon glyphicon-lock"></span>
                 </a>
+                <a href="#" id="_<?=$user['user_id']?>" type="button" class="btn btn-xs btn-primary right-button edit-user" data-toggle="tooltip" title="Edit User">
+                  <span class="glyphicon glyphicon-user"></span>
+                </a>
               </td>
             </tr>
           <?php endforeach; ?>
         </tbody>
         </table>
-
-      </div>
-    </div>
+          </div>
+        </div>
 
   </div>
   <!-- /container -->
 
-    <!-- START THE SIGN UP MODAL -->
+    <!-- START NEW USER MODAL -->
 
-    <!-- Change Project Name Modal -->
+    <!-- New User Modal -->
     <div class="modal fade" id="addNewUserWindow" tabindex="-1" data-backdrop="static" data-keyboard="false">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -157,7 +157,6 @@
               <div class="alert alert-danger" id="alertAddNewUser">
                 <strong>Oh snap!</strong>
               </div>
-
               <div class="form-group">
                 <label for="first_name">First Name</label>
                 <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name" value=""
@@ -182,7 +181,8 @@
                  data-msg-maxlength="Your email cannot be more than 255 characters" 
                  data-rule-email="true" 
                  data-rule-required="true" 
-                 data-rule-maxlength="255" />
+                 data-rule-maxlength="255"
+                 data-rule-notUsed="true" />
                 <div id="message"></div>
               </div>
               <div class="form-group">
@@ -200,23 +200,24 @@
               <div class="form-group">
                 <div class="col-sm-offset-0 col-sm-10">
                   <div class="checkbox">
-                    <label for="admin_access"> <input type="checkbox" id="admin_access" name= "admin_access" checked> <strong>Provide Administrator access.</strong>
+                    <label for="admin_access"> <input type="checkbox" id="admin_access" name="admin_access"> <strong>Administrator</strong>
                     </label>
                   </div>
                 </div>
               </div>
             </div>
             <div class="modal-footer">
+              <input type="hidden" id="user_id" name="user_id">
               <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-success btn-primary" id="saveButton">Save</button>
+              <button type="submit" class="btn btn-success btn-primary" id="addUserButton">Save</button>
             </div>
           </form>
         </div>
       </div>
     </div>
 
-    <!-- /END THE SIGN UP MODAL -->
-
+    <!-- /END NEW USER MODAL -->
+    
   <!-- Bootstrap core JavaScript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
@@ -224,6 +225,6 @@
   <script src="../js/bootstrap.min.js"></script>
   <script src="../js/jquery.validate.js"></script>
   <script src="../js/bootbox.min.js"></script>
-  <script src="../js/p4-admin.js"> </script>
+  <script src="../js/p4-admin.js"></script>
 </body>
 </html>

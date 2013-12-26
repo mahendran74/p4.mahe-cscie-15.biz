@@ -64,7 +64,7 @@
               <div class="form-group">
                 <label for="login_email" class="col-sm-4 control-label">Email</label>
                 <div class="col-sm-8">
-                  <input id="login_email" name="login_email" type="text" placeholder="Email" class="form-control" value="" autofocus 
+                  <input id="login_email" name="login_email" type="text" placeholder="Email" class="form-control" value="<?=$user_email?>" autofocus 
                    data-msg-email="Please enter a valid email." 
                    data-msg-required="Please enter a valid email." 
                    data-msg-maxlength="Your email cannot be more than 255 characters" 
@@ -148,7 +148,8 @@
               data-msg-maxlength="Your email cannot be more than 255 characters" 
               data-rule-email="true" 
               data-rule-required="true" 
-              data-rule-maxlength="255" />
+              data-rule-maxlength="255" 
+              data-rule-notUsed="true"/>
               <div id="message"></div>
             </div>
             <div class="form-group">
@@ -191,6 +192,6 @@
   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
   <script src="../js/jquery.validate.js"></script>
-  <script src="../js/home-p4.js"></script>
+  <script src="../js/p4-home.js"></script>
 </body>
 </html>
