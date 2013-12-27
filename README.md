@@ -57,7 +57,7 @@
 </ul>
 <p>The email notifications send out to the 'sharklasers.com' email addresses can be viewed at the www.guerillamail.com</p>
 
-<h3>Multiple User Interfaces</h3>
+<h3>5. Multiple User Interfaces</h3>
 <p>As it's already mentioned there are 3 different interfaces for the 3 different roles that QPM supports. These interfaces are easily distinguishable since there are captioned and color coded differently from eah other. QPM also lets the user switch between the roles without additional logins.</p>
 
 <h1>Important</h1>
