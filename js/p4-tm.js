@@ -1,3 +1,15 @@
+//About click
+$('#about').on('click', function(e) {
+  e.preventDefault();
+  $('#aboutWindow').modal('show');
+});
+
+//Contact click
+$('#contact').on('click', function(e) {
+  e.preventDefault();
+  $('#contactWindow').modal('show');
+});
+
 $(document).ready(
     function() {
       $('#calendar').fullCalendar(

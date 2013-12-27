@@ -5,6 +5,17 @@ $('#addNewProject').on('click', function(e) {
   $('#newProjectWindow').modal('show');
 });
 
+//About click
+$('#about').on('click', function(e) {
+  e.preventDefault();
+  $('#aboutWindow').modal('show');
+});
+
+//Contact click
+$('#contact').on('click', function(e) {
+  e.preventDefault();
+  $('#contactWindow').modal('show');
+});
 
 $('.left-button').tooltip({
   'placement' : 'bottom'

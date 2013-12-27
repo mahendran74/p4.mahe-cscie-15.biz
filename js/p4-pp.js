@@ -7,6 +7,18 @@ function changeDateFormat(date_string) {
   return (monthVar + "/" + dayVar + "/" + yearVar);
 }
 
+//About click
+$('#about').on('click', function(e) {
+  e.preventDefault();
+  $('#aboutWindow').modal('show');
+});
+
+//Contact click
+$('#contact').on('click', function(e) {
+  e.preventDefault();
+  $('#contactWindow').modal('show');
+});
+
 /**
  * Process the Edit task button click
  * 

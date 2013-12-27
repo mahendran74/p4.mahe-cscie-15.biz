@@ -5,6 +5,12 @@ $('#signUp').on('click', function(e) {
   $('#signUpWindow').modal('show');
 });
 
+//About click
+$('#about').on('click', function(e) {
+  e.preventDefault();
+  $('#aboutWindow').modal('show');
+});
+
 jQuery.validator.addMethod("notUsed", 
     function(value, element, params) {
    var response;
