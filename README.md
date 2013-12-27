@@ -2,15 +2,18 @@
 The QPM is a project management tool. It helps users manage small projects like a Agile sprint. It has 3 different user interfaces for the 3 different roles that it supports.
 Project Manager Interface
 This is the default interface. The user signing in to the website will be given this role by default. This interface provides the user with the following privileges.
-1. Create new projects
-2. Edit projects details like
-    a. Project Description
-    b. Start and End date
-    c. Project Status - Green/Yellow/Red
-3. View the Gantt chart of the project
-4. Add, edit and delete tasks, task groups and milestones.
-5. Add team members for the projects.
-
+<ul>
+<li>1. Create new projects. </li>
+<li>2. Edit projects details like</li>
+<ul>
+    <li>a. Project Description</li>
+    <li>b. Start and End date</li>
+    <li>c. Project Status - Green/Yellow/Red</li>
+</ul>
+<li>3. View the Gantt chart of the project</li>
+<li>4. Add, edit and delete tasks, task groups and milestones.</li>
+<li>5. Add team members for the projects.</li>
+</ul>
 Administrator Interface
 This is the administrator's interface. This lets users to
 1. Add new users.
