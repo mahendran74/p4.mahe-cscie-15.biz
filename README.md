@@ -61,6 +61,6 @@
 <p>As it's already mentioned there are 3 different interfaces for the 3 different roles that QPM supports. These interfaces are easily distinguishable since there are captioned and color coded differently from eah other. QPM also lets the user switch between the roles without additional logins.</p>
 
 <h1>Important</h1>
-<p>I've modified the core libraries for this project. So please use the core libraries in the 'core' folder in this project.</p>
+<p>I've modified the core libraries for this project. So please use the core libraries in the following GitHub fork - https://github.com/mahendran74/core.</p>
 
 
