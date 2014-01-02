@@ -287,7 +287,7 @@ $("#addNewUserForm").validate({
     var project_id = $("#project_id").val();
     $.ajax({
       type : 'post',
-      url : '/users/p_adduser',
+      url : '/users/p_add_user',
       data : formData,
       success : function(data) {
         console.log(data);
